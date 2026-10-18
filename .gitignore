@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+RAG_LMA_Assignment_v1.pdf
+REFERENCE_report_draft.md
+.notebook_src/
+report/
+report_outline.md
