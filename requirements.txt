@@ -1,0 +1,14 @@
+torch>=2.2
+transformers>=4.40
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+pymupdf>=1.24
+ollama>=0.3
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+tqdm>=4.66
+nbformat>=5.9
+nbconvert>=7.0
+ipykernel>=6.29
+seaborn>=0.13
