@@ -1,0 +1,981 @@
+config,id,split,hit3_base,hit3_rr,all3_base,all3_rr,mrr_base,mrr_rr,recall_pool,n_chunks
+reference (as in §5–6),Q01,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+reference (as in §5–6),Q02,dev,0,1,0,1,0.25,0.5,1,747
+reference (as in §5–6),Q03,dev,1,1,1,1,1.0,0.5,1,747
+reference (as in §5–6),Q04,dev,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q05,dev,0,0,0,0,0.25,0.25,1,747
+reference (as in §5–6),Q06,dev,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q07,dev,0,0,0,0,0.2,0.2,1,747
+reference (as in §5–6),Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+reference (as in §5–6),Q09,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+reference (as in §5–6),Q10,dev,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q11,dev,1,1,0,0,1.0,1.0,1,747
+reference (as in §5–6),Q12,dev,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q13,dev,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q14,dev,1,1,1,1,0.5,1.0,1,747
+reference (as in §5–6),Q15,dev,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q16,dev,0,1,0,1,0.25,1.0,1,747
+reference (as in §5–6),Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+reference (as in §5–6),Q18,dev,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q19,dev,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q20,dev,1,0,1,0,1.0,0.2,1,747
+reference (as in §5–6),Q21,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+reference (as in §5–6),Q22,dev,1,1,1,1,1.0,0.5,1,747
+reference (as in §5–6),Q23,dev,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+reference (as in §5–6),Q25,test,1,1,1,1,0.3333333333333333,1.0,1,747
+reference (as in §5–6),Q26,test,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q27,test,0,1,0,1,0.2,0.5,1,747
+reference (as in §5–6),Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+reference (as in §5–6),Q29,test,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q30,test,1,1,1,1,0.3333333333333333,0.5,1,747
+reference (as in §5–6),Q31,test,1,1,1,1,0.3333333333333333,0.5,1,747
+reference (as in §5–6),Q32,test,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q33,test,1,1,1,1,1.0,0.5,1,747
+reference (as in §5–6),Q34,test,1,1,1,1,0.3333333333333333,1.0,1,747
+reference (as in §5–6),Q35,test,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q36,test,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q37,test,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q38,test,1,1,1,1,0.5,1.0,1,747
+reference (as in §5–6),Q39,test,0,0,0,0,0.2,0.25,1,747
+reference (as in §5–6),Q40,test,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q41,test,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q42,test,1,1,1,1,1.0,0.5,1,747
+reference (as in §5–6),Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+reference (as in §5–6),Q44,test,1,0,1,0,0.5,0.25,1,747
+reference (as in §5–6),Q45,test,0,0,0,0,0.0,0.0,0,747
+reference (as in §5–6),Q46,test,1,0,1,0,0.5,0.1111111111111111,1,747
+reference (as in §5–6),Q47,test,0,1,0,1,0.2,0.5,1,747
+reference (as in §5–6),Q48,test,1,1,1,1,1.0,1.0,1,747
+reference (as in §5–6),Q49,test,0,0,0,0,0.0,0.0,0,747
+chunks ≤120 tokens,Q01,dev,0,1,0,1,0.25,0.5,1,1610
+chunks ≤120 tokens,Q02,dev,1,1,1,1,0.5,0.5,1,1610
+chunks ≤120 tokens,Q03,dev,1,1,1,1,0.3333333333333333,1.0,1,1610
+chunks ≤120 tokens,Q04,dev,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q05,dev,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q06,dev,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q07,dev,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q08,dev,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q09,dev,1,1,1,1,0.3333333333333333,1.0,1,1610
+chunks ≤120 tokens,Q10,dev,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q11,dev,1,1,0,0,1.0,1.0,1,1610
+chunks ≤120 tokens,Q12,dev,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q13,dev,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q14,dev,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q15,dev,1,1,1,1,1.0,0.5,1,1610
+chunks ≤120 tokens,Q16,dev,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q17,dev,0,0,0,0,0.125,0.14285714285714285,1,1610
+chunks ≤120 tokens,Q18,dev,0,1,0,1,0.25,1.0,1,1610
+chunks ≤120 tokens,Q19,dev,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q20,dev,1,0,1,0,0.5,0.2,1,1610
+chunks ≤120 tokens,Q21,dev,1,1,1,1,1.0,0.5,1,1610
+chunks ≤120 tokens,Q22,dev,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q23,dev,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q24,dev,1,1,1,1,0.5,0.5,1,1610
+chunks ≤120 tokens,Q25,test,1,1,1,1,0.5,1.0,1,1610
+chunks ≤120 tokens,Q26,test,1,1,1,1,0.5,1.0,1,1610
+chunks ≤120 tokens,Q27,test,0,1,0,1,0.2,0.5,1,1610
+chunks ≤120 tokens,Q28,test,0,1,0,1,0.25,0.3333333333333333,1,1610
+chunks ≤120 tokens,Q29,test,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q30,test,1,1,1,1,0.5,1.0,1,1610
+chunks ≤120 tokens,Q31,test,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q32,test,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q33,test,1,1,1,1,0.3333333333333333,0.5,1,1610
+chunks ≤120 tokens,Q34,test,1,1,1,1,0.5,1.0,1,1610
+chunks ≤120 tokens,Q35,test,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q36,test,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q37,test,1,1,1,1,0.5,0.5,1,1610
+chunks ≤120 tokens,Q38,test,0,1,0,1,0.1111111111111111,1.0,1,1610
+chunks ≤120 tokens,Q39,test,0,0,0,0,0.125,0.16666666666666666,1,1610
+chunks ≤120 tokens,Q40,test,0,0,0,0,0.0,0.0,0,1610
+chunks ≤120 tokens,Q41,test,1,1,1,1,1.0,0.3333333333333333,1,1610
+chunks ≤120 tokens,Q42,test,1,1,1,1,0.3333333333333333,0.5,1,1610
+chunks ≤120 tokens,Q43,test,1,1,1,1,1.0,1.0,1,1610
+chunks ≤120 tokens,Q44,test,0,0,0,0,0.25,0.14285714285714285,1,1610
+chunks ≤120 tokens,Q45,test,0,0,0,0,0.125,0.16666666666666666,1,1610
+chunks ≤120 tokens,Q46,test,0,1,0,1,0.14285714285714285,0.5,1,1610
+chunks ≤120 tokens,Q47,test,1,1,1,1,0.5,0.3333333333333333,1,1610
+chunks ≤120 tokens,Q48,test,1,1,1,1,1.0,0.5,1,1610
+chunks ≤120 tokens,Q49,test,0,0,0,0,0.0,0.0,0,1610
+chunks ≤400 tokens (truncated),Q01,dev,0,0,0,0,0.16666666666666666,0.16666666666666666,1,467
+chunks ≤400 tokens (truncated),Q02,dev,0,1,0,1,0.2,0.5,1,467
+chunks ≤400 tokens (truncated),Q03,dev,0,1,0,1,0.2,1.0,1,467
+chunks ≤400 tokens (truncated),Q04,dev,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q05,dev,1,1,1,1,1.0,0.5,1,467
+chunks ≤400 tokens (truncated),Q06,dev,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q07,dev,0,1,0,1,0.125,0.3333333333333333,1,467
+chunks ≤400 tokens (truncated),Q08,dev,1,1,1,1,0.5,0.5,1,467
+chunks ≤400 tokens (truncated),Q09,dev,1,1,1,1,0.3333333333333333,0.5,1,467
+chunks ≤400 tokens (truncated),Q10,dev,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q11,dev,1,0,0,0,1.0,0.1,1,467
+chunks ≤400 tokens (truncated),Q12,dev,1,1,1,1,1.0,1.0,1,467
+chunks ≤400 tokens (truncated),Q13,dev,1,1,1,1,0.5,1.0,1,467
+chunks ≤400 tokens (truncated),Q14,dev,1,1,1,1,1.0,1.0,1,467
+chunks ≤400 tokens (truncated),Q15,dev,1,1,1,1,1.0,1.0,1,467
+chunks ≤400 tokens (truncated),Q16,dev,1,1,1,1,0.3333333333333333,1.0,1,467
+chunks ≤400 tokens (truncated),Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,467
+chunks ≤400 tokens (truncated),Q18,dev,0,1,0,1,0.14285714285714285,1.0,1,467
+chunks ≤400 tokens (truncated),Q19,dev,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q20,dev,1,1,1,1,0.3333333333333333,0.5,1,467
+chunks ≤400 tokens (truncated),Q21,dev,0,0,0,0,0.1111111111111111,0.14285714285714285,1,467
+chunks ≤400 tokens (truncated),Q22,dev,1,1,1,1,1.0,0.5,1,467
+chunks ≤400 tokens (truncated),Q23,dev,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q24,dev,1,1,1,1,0.5,1.0,1,467
+chunks ≤400 tokens (truncated),Q25,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q26,test,0,1,0,1,0.1,1.0,1,467
+chunks ≤400 tokens (truncated),Q27,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q28,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q29,test,1,1,1,1,1.0,1.0,1,467
+chunks ≤400 tokens (truncated),Q30,test,1,1,1,1,1.0,1.0,1,467
+chunks ≤400 tokens (truncated),Q31,test,1,1,1,1,0.5,1.0,1,467
+chunks ≤400 tokens (truncated),Q32,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q33,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q34,test,0,1,0,1,0.25,0.5,1,467
+chunks ≤400 tokens (truncated),Q35,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q36,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q37,test,1,0,1,0,0.5,0.2,1,467
+chunks ≤400 tokens (truncated),Q38,test,1,1,1,1,0.3333333333333333,1.0,1,467
+chunks ≤400 tokens (truncated),Q39,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q40,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q41,test,1,1,1,1,1.0,1.0,1,467
+chunks ≤400 tokens (truncated),Q42,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q43,test,1,1,1,1,0.5,0.3333333333333333,1,467
+chunks ≤400 tokens (truncated),Q44,test,1,1,1,1,0.3333333333333333,0.5,1,467
+chunks ≤400 tokens (truncated),Q45,test,0,0,0,0,0.0,0.0,0,467
+chunks ≤400 tokens (truncated),Q46,test,0,1,0,1,0.25,1.0,1,467
+chunks ≤400 tokens (truncated),Q47,test,0,0,0,0,0.1,0.14285714285714285,1,467
+chunks ≤400 tokens (truncated),Q48,test,1,1,1,1,1.0,1.0,1,467
+chunks ≤400 tokens (truncated),Q49,test,0,0,0,0,0.0,0.0,0,467
+no chunk header,Q01,dev,0,1,0,1,0.25,0.5,1,747
+no chunk header,Q02,dev,0,1,0,1,0.25,0.5,1,747
+no chunk header,Q03,dev,1,1,1,1,0.5,1.0,1,747
+no chunk header,Q04,dev,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q05,dev,1,0,1,0,0.3333333333333333,0.25,1,747
+no chunk header,Q06,dev,1,1,1,1,0.5,1.0,1,747
+no chunk header,Q07,dev,0,0,0,0,0.14285714285714285,0.2,1,747
+no chunk header,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+no chunk header,Q09,dev,0,1,0,1,0.2,0.3333333333333333,1,747
+no chunk header,Q10,dev,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q11,dev,1,1,0,0,1.0,1.0,1,747
+no chunk header,Q12,dev,1,1,1,1,1.0,1.0,1,747
+no chunk header,Q13,dev,1,1,1,1,1.0,1.0,1,747
+no chunk header,Q14,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+no chunk header,Q15,dev,1,1,1,1,1.0,1.0,1,747
+no chunk header,Q16,dev,0,1,0,1,0.25,1.0,1,747
+no chunk header,Q17,dev,0,0,0,0,0.2,0.16666666666666666,1,747
+no chunk header,Q18,dev,1,1,1,1,0.5,1.0,1,747
+no chunk header,Q19,dev,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q20,dev,1,0,1,0,1.0,0.16666666666666666,1,747
+no chunk header,Q21,dev,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q22,dev,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q23,dev,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q24,dev,0,1,0,1,0.2,0.5,1,747
+no chunk header,Q25,test,0,1,0,1,0.2,1.0,1,747
+no chunk header,Q26,test,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q27,test,0,1,0,1,0.2,0.5,1,747
+no chunk header,Q28,test,1,1,1,1,0.5,0.5,1,747
+no chunk header,Q29,test,1,1,1,1,1.0,1.0,1,747
+no chunk header,Q30,test,1,1,1,1,0.3333333333333333,1.0,1,747
+no chunk header,Q31,test,1,1,1,1,0.5,0.5,1,747
+no chunk header,Q32,test,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q33,test,1,1,1,1,0.5,0.5,1,747
+no chunk header,Q34,test,1,1,1,1,0.5,1.0,1,747
+no chunk header,Q35,test,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q36,test,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q37,test,1,1,1,1,1.0,1.0,1,747
+no chunk header,Q38,test,1,1,1,1,0.5,1.0,1,747
+no chunk header,Q39,test,0,0,0,0,0.2,0.25,1,747
+no chunk header,Q40,test,0,1,0,0,0.2,1.0,1,747
+no chunk header,Q41,test,1,1,1,1,1.0,1.0,1,747
+no chunk header,Q42,test,0,0,0,0,0.2,0.1111111111111111,1,747
+no chunk header,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+no chunk header,Q44,test,0,0,0,0,0.2,0.14285714285714285,1,747
+no chunk header,Q45,test,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q46,test,1,1,1,1,0.5,0.3333333333333333,1,747
+no chunk header,Q47,test,0,0,0,0,0.0,0.0,0,747
+no chunk header,Q48,test,1,1,1,1,1.0,1.0,1,747
+no chunk header,Q49,test,0,0,0,0,0.0,0.0,0,747
+binding text only,Q01,dev,1,1,1,1,1.0,0.5,1,458
+binding text only,Q02,dev,1,1,1,1,0.5,1.0,1,458
+binding text only,Q03,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q04,dev,0,0,0,0,0.14285714285714285,0.125,1,458
+binding text only,Q05,dev,1,1,1,1,0.5,0.5,1,458
+binding text only,Q06,dev,0,1,0,1,0.1111111111111111,1.0,1,458
+binding text only,Q07,dev,1,1,1,1,1.0,0.3333333333333333,1,458
+binding text only,Q08,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q09,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q10,dev,0,0,0,0,0.0,0.0,0,458
+binding text only,Q11,dev,1,1,0,0,1.0,1.0,1,458
+binding text only,Q12,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q13,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q14,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q15,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q16,dev,1,1,1,1,0.3333333333333333,1.0,1,458
+binding text only,Q17,dev,1,1,1,1,0.5,0.5,1,458
+binding text only,Q18,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q19,dev,0,0,0,0,0.0,0.0,0,458
+binding text only,Q20,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q21,dev,1,1,1,1,0.5,1.0,1,458
+binding text only,Q22,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q23,dev,0,0,0,0,0.0,0.0,0,458
+binding text only,Q24,dev,1,1,1,1,1.0,1.0,1,458
+binding text only,Q25,test,1,1,1,1,0.3333333333333333,1.0,1,458
+binding text only,Q26,test,0,1,0,1,0.16666666666666666,1.0,1,458
+binding text only,Q27,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q28,test,1,1,1,1,0.5,1.0,1,458
+binding text only,Q29,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q30,test,1,1,1,1,0.3333333333333333,0.5,1,458
+binding text only,Q31,test,1,1,1,1,0.5,1.0,1,458
+binding text only,Q32,test,0,0,0,0,0.0,0.0,0,458
+binding text only,Q33,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q34,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q35,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q36,test,0,0,0,0,0.0,0.0,0,458
+binding text only,Q37,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q38,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q39,test,1,1,1,1,0.5,0.5,1,458
+binding text only,Q40,test,0,0,0,0,0.0,0.0,0,458
+binding text only,Q41,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q42,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q43,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q44,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q45,test,0,0,0,0,0.0,0.0,0,458
+binding text only,Q46,test,1,0,1,0,0.5,0.125,1,458
+binding text only,Q47,test,1,1,1,1,0.5,1.0,1,458
+binding text only,Q48,test,1,1,1,1,1.0,1.0,1,458
+binding text only,Q49,test,0,0,0,0,0.0,0.0,0,458
+re-rank Top 20,Q01,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 20,Q02,dev,0,1,0,1,0.25,0.5,1,747
+re-rank Top 20,Q03,dev,1,1,1,1,1.0,0.5,1,747
+re-rank Top 20,Q04,dev,0,0,0,0,0.0,0.0,1,747
+re-rank Top 20,Q05,dev,0,0,0,0,0.25,0.2,1,747
+re-rank Top 20,Q06,dev,0,1,0,1,0.0,1.0,1,747
+re-rank Top 20,Q07,dev,0,0,0,0,0.2,0.14285714285714285,1,747
+re-rank Top 20,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 20,Q09,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 20,Q10,dev,0,0,0,0,0.0,0.0,0,747
+re-rank Top 20,Q11,dev,1,1,0,0,1.0,1.0,1,747
+re-rank Top 20,Q12,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q13,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q14,dev,1,1,1,1,0.5,1.0,1,747
+re-rank Top 20,Q15,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q16,dev,0,1,0,1,0.25,1.0,1,747
+re-rank Top 20,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 20,Q18,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q19,dev,0,0,0,0,0.0,0.0,0,747
+re-rank Top 20,Q20,dev,1,0,1,0,1.0,0.16666666666666666,1,747
+re-rank Top 20,Q21,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 20,Q22,dev,1,1,1,1,1.0,0.5,1,747
+re-rank Top 20,Q23,dev,0,0,0,0,0.0,0.0,0,747
+re-rank Top 20,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 20,Q25,test,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 20,Q26,test,0,1,0,1,0.0,1.0,1,747
+re-rank Top 20,Q27,test,0,1,0,1,0.2,0.5,1,747
+re-rank Top 20,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 20,Q29,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q30,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 20,Q31,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 20,Q32,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 20,Q33,test,1,1,1,1,1.0,0.5,1,747
+re-rank Top 20,Q34,test,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 20,Q35,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q36,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 20,Q37,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q38,test,1,1,1,1,0.5,1.0,1,747
+re-rank Top 20,Q39,test,0,0,0,0,0.2,0.25,1,747
+re-rank Top 20,Q40,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 20,Q41,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q42,test,1,1,1,1,1.0,0.5,1,747
+re-rank Top 20,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+re-rank Top 20,Q44,test,1,0,1,0,0.5,0.25,1,747
+re-rank Top 20,Q45,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 20,Q46,test,1,0,1,0,0.5,0.0,1,747
+re-rank Top 20,Q47,test,0,1,0,1,0.2,0.3333333333333333,1,747
+re-rank Top 20,Q48,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 20,Q49,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q01,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 30,Q02,dev,0,1,0,1,0.25,0.5,1,747
+re-rank Top 30,Q03,dev,1,1,1,1,1.0,0.5,1,747
+re-rank Top 30,Q04,dev,0,0,0,0,0.0,0.0,1,747
+re-rank Top 30,Q05,dev,0,0,0,0,0.25,0.2,1,747
+re-rank Top 30,Q06,dev,0,1,0,1,0.0,1.0,1,747
+re-rank Top 30,Q07,dev,0,0,0,0,0.2,0.125,1,747
+re-rank Top 30,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 30,Q09,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 30,Q10,dev,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q11,dev,1,1,0,0,1.0,1.0,1,747
+re-rank Top 30,Q12,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q13,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q14,dev,1,1,1,1,0.5,1.0,1,747
+re-rank Top 30,Q15,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q16,dev,0,1,0,1,0.25,1.0,1,747
+re-rank Top 30,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 30,Q18,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q19,dev,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q20,dev,1,0,1,0,1.0,0.16666666666666666,1,747
+re-rank Top 30,Q21,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 30,Q22,dev,1,1,1,1,1.0,0.5,1,747
+re-rank Top 30,Q23,dev,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 30,Q25,test,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 30,Q26,test,0,1,0,1,0.0,1.0,1,747
+re-rank Top 30,Q27,test,0,1,0,1,0.2,0.5,1,747
+re-rank Top 30,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 30,Q29,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q30,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 30,Q31,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 30,Q32,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q33,test,1,1,1,1,1.0,0.5,1,747
+re-rank Top 30,Q34,test,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 30,Q35,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q36,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q37,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q38,test,1,1,1,1,0.5,1.0,1,747
+re-rank Top 30,Q39,test,0,0,0,0,0.2,0.25,1,747
+re-rank Top 30,Q40,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q41,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q42,test,1,1,1,1,1.0,0.5,1,747
+re-rank Top 30,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+re-rank Top 30,Q44,test,1,0,1,0,0.5,0.25,1,747
+re-rank Top 30,Q45,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 30,Q46,test,1,0,1,0,0.5,0.0,1,747
+re-rank Top 30,Q47,test,0,1,0,1,0.2,0.3333333333333333,1,747
+re-rank Top 30,Q48,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 30,Q49,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 50,Q01,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 50,Q02,dev,0,1,0,1,0.25,0.5,1,747
+re-rank Top 50,Q03,dev,1,1,1,1,1.0,0.5,1,747
+re-rank Top 50,Q04,dev,0,0,0,0,0.0,0.0,1,747
+re-rank Top 50,Q05,dev,0,0,0,0,0.25,0.2,1,747
+re-rank Top 50,Q06,dev,0,1,0,1,0.0,1.0,1,747
+re-rank Top 50,Q07,dev,0,0,0,0,0.2,0.125,1,747
+re-rank Top 50,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 50,Q09,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 50,Q10,dev,0,0,0,0,0.0,0.0,1,747
+re-rank Top 50,Q11,dev,1,1,0,0,1.0,1.0,1,747
+re-rank Top 50,Q12,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q13,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q14,dev,1,1,1,1,0.5,1.0,1,747
+re-rank Top 50,Q15,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q16,dev,0,1,0,1,0.25,1.0,1,747
+re-rank Top 50,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+re-rank Top 50,Q18,dev,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q19,dev,0,0,0,0,0.0,0.0,0,747
+re-rank Top 50,Q20,dev,1,0,1,0,1.0,0.125,1,747
+re-rank Top 50,Q21,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 50,Q22,dev,1,1,1,1,1.0,0.5,1,747
+re-rank Top 50,Q23,dev,0,1,0,1,0.0,1.0,1,747
+re-rank Top 50,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 50,Q25,test,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 50,Q26,test,0,1,0,1,0.0,1.0,1,747
+re-rank Top 50,Q27,test,0,1,0,1,0.2,0.5,1,747
+re-rank Top 50,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 50,Q29,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q30,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 50,Q31,test,1,1,1,1,0.3333333333333333,0.5,1,747
+re-rank Top 50,Q32,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 50,Q33,test,1,1,1,1,1.0,0.5,1,747
+re-rank Top 50,Q34,test,1,1,1,1,0.3333333333333333,1.0,1,747
+re-rank Top 50,Q35,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q36,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 50,Q37,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q38,test,1,1,1,1,0.5,1.0,1,747
+re-rank Top 50,Q39,test,0,0,0,0,0.2,0.25,1,747
+re-rank Top 50,Q40,test,0,0,0,0,0.0,0.0,0,747
+re-rank Top 50,Q41,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q42,test,1,1,1,1,1.0,0.5,1,747
+re-rank Top 50,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+re-rank Top 50,Q44,test,1,0,1,0,0.5,0.2,1,747
+re-rank Top 50,Q45,test,0,0,0,0,0.0,0.0,1,747
+re-rank Top 50,Q46,test,1,0,1,0,0.5,0.0,1,747
+re-rank Top 50,Q47,test,0,1,0,1,0.2,0.3333333333333333,1,747
+re-rank Top 50,Q48,test,1,1,1,1,1.0,1.0,1,747
+re-rank Top 50,Q49,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q01,dev,0,1,0,1,0.1111111111111111,0.3333333333333333,1,747
+bi-encoder bge-small,Q02,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q03,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q04,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q05,dev,0,0,0,0,0.16666666666666666,0.2,1,747
+bi-encoder bge-small,Q06,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q07,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder bge-small,Q09,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q10,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q11,dev,1,1,0,0,1.0,1.0,1,747
+bi-encoder bge-small,Q12,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q13,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q14,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-small,Q15,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q16,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-small,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+bi-encoder bge-small,Q18,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q19,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q20,dev,1,1,1,1,0.5,0.3333333333333333,1,747
+bi-encoder bge-small,Q21,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q22,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder bge-small,Q23,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-small,Q24,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q25,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q26,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-small,Q27,test,0,1,0,1,0.14285714285714285,0.5,1,747
+bi-encoder bge-small,Q28,test,0,1,0,1,0.2,0.5,1,747
+bi-encoder bge-small,Q29,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q30,test,1,1,1,1,0.5,0.5,1,747
+bi-encoder bge-small,Q31,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q32,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q33,test,1,1,1,1,1.0,0.5,1,747
+bi-encoder bge-small,Q34,test,1,1,1,1,0.3333333333333333,1.0,1,747
+bi-encoder bge-small,Q35,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q36,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q37,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-small,Q38,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-small,Q39,test,0,0,0,0,0.2,0.25,1,747
+bi-encoder bge-small,Q40,test,1,1,1,0,0.5,1.0,1,747
+bi-encoder bge-small,Q41,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q42,test,0,1,0,1,0.25,0.5,1,747
+bi-encoder bge-small,Q43,test,1,1,1,1,0.5,0.3333333333333333,1,747
+bi-encoder bge-small,Q44,test,1,0,1,0,0.3333333333333333,0.2,1,747
+bi-encoder bge-small,Q45,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q46,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q47,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-small,Q48,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-small,Q49,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q01,dev,0,1,0,1,0.2,0.3333333333333333,1,747
+bi-encoder e5-base,Q02,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder e5-base,Q03,dev,1,1,1,1,1.0,0.5,1,747
+bi-encoder e5-base,Q04,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q05,dev,1,0,1,0,0.3333333333333333,0.2,1,747
+bi-encoder e5-base,Q06,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q07,dev,0,0,0,0,0.125,0.16666666666666666,1,747
+bi-encoder e5-base,Q08,dev,1,1,1,1,1.0,0.5,1,747
+bi-encoder e5-base,Q09,dev,0,1,0,1,0.25,0.3333333333333333,1,747
+bi-encoder e5-base,Q10,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q11,dev,1,1,0,0,0.5,1.0,1,747
+bi-encoder e5-base,Q12,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q13,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q14,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+bi-encoder e5-base,Q15,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder e5-base,Q16,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder e5-base,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+bi-encoder e5-base,Q18,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q19,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q20,dev,0,0,0,0,0.1,0.25,1,747
+bi-encoder e5-base,Q21,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q22,dev,1,1,1,1,0.5,0.5,1,747
+bi-encoder e5-base,Q23,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder e5-base,Q24,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder e5-base,Q25,test,0,1,0,1,0.25,1.0,1,747
+bi-encoder e5-base,Q26,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder e5-base,Q27,test,0,1,0,1,0.125,0.5,1,747
+bi-encoder e5-base,Q28,test,0,1,0,1,0.25,0.5,1,747
+bi-encoder e5-base,Q29,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q30,test,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder e5-base,Q31,test,1,1,1,1,1.0,0.5,1,747
+bi-encoder e5-base,Q32,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q33,test,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder e5-base,Q34,test,0,1,0,1,0.25,1.0,1,747
+bi-encoder e5-base,Q35,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder e5-base,Q36,test,0,0,0,0,0.25,0.25,1,747
+bi-encoder e5-base,Q37,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q38,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q39,test,0,0,0,0,0.25,0.25,1,747
+bi-encoder e5-base,Q40,test,0,1,0,0,0.25,1.0,1,747
+bi-encoder e5-base,Q41,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q42,test,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder e5-base,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+bi-encoder e5-base,Q44,test,1,0,1,0,0.5,0.2,1,747
+bi-encoder e5-base,Q45,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q46,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q47,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder e5-base,Q48,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder e5-base,Q49,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q01,dev,0,1,0,1,0.125,0.3333333333333333,1,747
+bi-encoder bge-base,Q02,dev,1,1,1,1,0.5,0.5,1,747
+bi-encoder bge-base,Q03,dev,0,1,0,1,0.16666666666666666,0.5,1,747
+bi-encoder bge-base,Q04,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q05,dev,1,0,1,0,0.5,0.2,1,747
+bi-encoder bge-base,Q06,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q07,dev,0,0,0,0,0.14285714285714285,0.2,1,747
+bi-encoder bge-base,Q08,dev,0,1,0,1,0.25,0.5,1,747
+bi-encoder bge-base,Q09,dev,0,1,0,1,0.25,0.3333333333333333,1,747
+bi-encoder bge-base,Q10,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q11,dev,1,1,0,0,0.5,1.0,1,747
+bi-encoder bge-base,Q12,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q13,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q14,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q15,dev,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q16,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-base,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+bi-encoder bge-base,Q18,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-base,Q19,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q20,dev,1,0,1,0,0.5,0.25,1,747
+bi-encoder bge-base,Q21,dev,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q22,dev,1,1,1,1,0.5,0.5,1,747
+bi-encoder bge-base,Q23,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-base,Q24,dev,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-base,Q25,test,0,1,0,1,0.16666666666666666,1.0,1,747
+bi-encoder bge-base,Q26,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-base,Q27,test,0,1,0,1,0.125,0.5,1,747
+bi-encoder bge-base,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder bge-base,Q29,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q30,test,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder bge-base,Q31,test,1,1,1,1,0.3333333333333333,0.5,1,747
+bi-encoder bge-base,Q32,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q33,test,1,1,1,1,1.0,0.5,1,747
+bi-encoder bge-base,Q34,test,0,1,0,1,0.25,1.0,1,747
+bi-encoder bge-base,Q35,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q36,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q37,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-base,Q38,test,1,1,1,1,0.5,1.0,1,747
+bi-encoder bge-base,Q39,test,1,0,1,0,1.0,0.25,1,747
+bi-encoder bge-base,Q40,test,1,1,1,0,1.0,1.0,1,747
+bi-encoder bge-base,Q41,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q42,test,1,1,1,1,1.0,0.5,1,747
+bi-encoder bge-base,Q43,test,1,1,1,1,0.5,0.3333333333333333,1,747
+bi-encoder bge-base,Q44,test,0,0,0,0,0.25,0.2,1,747
+bi-encoder bge-base,Q45,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q46,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q47,test,0,0,0,0,0.0,0.0,0,747
+bi-encoder bge-base,Q48,test,1,1,1,1,1.0,1.0,1,747
+bi-encoder bge-base,Q49,test,0,0,0,0,0.0,0.0,0,747
+hybrid dense + BM25,Q01,dev,1,1,1,1,0.5,0.3333333333333333,1,747
+hybrid dense + BM25,Q02,dev,1,1,1,1,0.5,0.5,1,747
+hybrid dense + BM25,Q03,dev,1,1,1,1,1.0,0.5,1,747
+hybrid dense + BM25,Q04,dev,0,0,0,0,0.0,0.0,0,747
+hybrid dense + BM25,Q05,dev,0,0,0,0,0.0,0.0,0,747
+hybrid dense + BM25,Q06,dev,0,1,0,1,0.25,1.0,1,747
+hybrid dense + BM25,Q07,dev,0,0,0,0,0.25,0.16666666666666666,1,747
+hybrid dense + BM25,Q08,dev,1,1,1,1,1.0,0.5,1,747
+hybrid dense + BM25,Q09,dev,1,1,1,1,0.5,0.3333333333333333,1,747
+hybrid dense + BM25,Q10,dev,0,0,0,0,0.2,0.16666666666666666,1,747
+hybrid dense + BM25,Q11,dev,0,1,0,0,0.1111111111111111,1.0,1,747
+hybrid dense + BM25,Q12,dev,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q13,dev,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q14,dev,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q15,dev,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q16,dev,1,1,1,1,0.5,1.0,1,747
+hybrid dense + BM25,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+hybrid dense + BM25,Q18,dev,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q19,dev,0,0,0,0,0.0,0.0,0,747
+hybrid dense + BM25,Q20,dev,1,0,1,0,0.5,0.2,1,747
+hybrid dense + BM25,Q21,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+hybrid dense + BM25,Q22,dev,1,1,1,1,1.0,0.5,1,747
+hybrid dense + BM25,Q23,dev,0,1,0,1,0.1111111111111111,1.0,1,747
+hybrid dense + BM25,Q24,dev,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q25,test,1,1,1,1,0.5,1.0,1,747
+hybrid dense + BM25,Q26,test,1,1,1,1,0.5,1.0,1,747
+hybrid dense + BM25,Q27,test,1,1,1,1,0.3333333333333333,0.5,1,747
+hybrid dense + BM25,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+hybrid dense + BM25,Q29,test,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q30,test,1,1,1,1,0.5,0.5,1,747
+hybrid dense + BM25,Q31,test,1,1,1,1,0.5,0.5,1,747
+hybrid dense + BM25,Q32,test,0,0,0,0,0.0,0.0,0,747
+hybrid dense + BM25,Q33,test,1,1,1,1,0.5,0.5,1,747
+hybrid dense + BM25,Q34,test,1,1,1,1,0.5,1.0,1,747
+hybrid dense + BM25,Q35,test,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q36,test,0,1,0,1,0.1,0.3333333333333333,1,747
+hybrid dense + BM25,Q37,test,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q38,test,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q39,test,0,0,0,0,0.125,0.25,1,747
+hybrid dense + BM25,Q40,test,0,0,0,0,0.0,0.0,0,747
+hybrid dense + BM25,Q41,test,0,1,0,1,0.1,1.0,1,747
+hybrid dense + BM25,Q42,test,1,1,1,1,1.0,0.5,1,747
+hybrid dense + BM25,Q43,test,1,1,1,1,0.5,0.3333333333333333,1,747
+hybrid dense + BM25,Q44,test,1,0,1,0,0.5,0.2,1,747
+hybrid dense + BM25,Q45,test,0,0,0,0,0.0,0.0,0,747
+hybrid dense + BM25,Q46,test,1,0,1,0,0.5,0.125,1,747
+hybrid dense + BM25,Q47,test,1,1,1,1,0.5,0.3333333333333333,1,747
+hybrid dense + BM25,Q48,test,1,1,1,1,1.0,1.0,1,747
+hybrid dense + BM25,Q49,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q01,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder MiniLM-L12,Q02,dev,0,1,0,1,0.25,0.5,1,747
+cross-encoder MiniLM-L12,Q03,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q04,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q05,dev,0,0,0,0,0.25,0.25,1,747
+cross-encoder MiniLM-L12,Q06,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q07,dev,0,0,0,0,0.2,0.16666666666666666,1,747
+cross-encoder MiniLM-L12,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder MiniLM-L12,Q09,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+cross-encoder MiniLM-L12,Q10,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q11,dev,1,1,0,0,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q12,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q13,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q14,dev,1,1,1,1,0.5,1.0,1,747
+cross-encoder MiniLM-L12,Q15,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q16,dev,0,1,0,1,0.25,1.0,1,747
+cross-encoder MiniLM-L12,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+cross-encoder MiniLM-L12,Q18,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q19,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q20,dev,1,1,1,1,1.0,0.5,1,747
+cross-encoder MiniLM-L12,Q21,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder MiniLM-L12,Q22,dev,1,1,1,1,1.0,0.5,1,747
+cross-encoder MiniLM-L12,Q23,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder MiniLM-L12,Q25,test,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder MiniLM-L12,Q26,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q27,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder MiniLM-L12,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder MiniLM-L12,Q29,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q30,test,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder MiniLM-L12,Q31,test,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder MiniLM-L12,Q32,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q33,test,1,1,1,1,1.0,0.5,1,747
+cross-encoder MiniLM-L12,Q34,test,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder MiniLM-L12,Q35,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q36,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q37,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q38,test,1,1,1,1,0.5,1.0,1,747
+cross-encoder MiniLM-L12,Q39,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder MiniLM-L12,Q40,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q41,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q42,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+cross-encoder MiniLM-L12,Q44,test,1,0,1,0,0.5,0.25,1,747
+cross-encoder MiniLM-L12,Q45,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder MiniLM-L12,Q46,test,1,0,1,0,0.5,0.16666666666666666,1,747
+cross-encoder MiniLM-L12,Q47,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder MiniLM-L12,Q48,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder MiniLM-L12,Q49,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q01,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+cross-encoder bge-reranker-base,Q02,dev,0,1,0,1,0.25,0.5,1,747
+cross-encoder bge-reranker-base,Q03,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q04,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q05,dev,0,1,0,1,0.25,0.5,1,747
+cross-encoder bge-reranker-base,Q06,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q07,dev,0,0,0,0,0.2,0.125,1,747
+cross-encoder bge-reranker-base,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-base,Q09,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-base,Q10,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q11,dev,1,1,0,0,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q12,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q13,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q14,dev,1,1,1,1,0.5,1.0,1,747
+cross-encoder bge-reranker-base,Q15,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q16,dev,0,1,0,1,0.25,1.0,1,747
+cross-encoder bge-reranker-base,Q17,dev,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+cross-encoder bge-reranker-base,Q18,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q19,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q20,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q21,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-base,Q22,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q23,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-base,Q25,test,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-base,Q26,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q27,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder bge-reranker-base,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-base,Q29,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q30,test,1,1,1,1,0.3333333333333333,0.3333333333333333,1,747
+cross-encoder bge-reranker-base,Q31,test,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-base,Q32,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q33,test,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-base,Q34,test,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-base,Q35,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q36,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q37,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q38,test,1,1,1,1,0.5,1.0,1,747
+cross-encoder bge-reranker-base,Q39,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder bge-reranker-base,Q40,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q41,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q42,test,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-base,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,747
+cross-encoder bge-reranker-base,Q44,test,1,1,1,1,0.5,0.3333333333333333,1,747
+cross-encoder bge-reranker-base,Q45,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-base,Q46,test,1,1,1,1,0.5,0.3333333333333333,1,747
+cross-encoder bge-reranker-base,Q47,test,0,1,0,1,0.2,1.0,1,747
+cross-encoder bge-reranker-base,Q48,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-base,Q49,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q01,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q02,dev,0,1,0,1,0.25,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q03,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q04,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q05,dev,0,1,0,1,0.25,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q06,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q07,dev,0,0,0,0,0.2,0.2,1,747
+cross-encoder bge-reranker-v2-m3,Q08,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q09,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q10,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q11,dev,1,1,0,0,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q12,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q13,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q14,dev,1,1,1,1,0.5,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q15,dev,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q16,dev,0,1,0,1,0.25,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q17,dev,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q18,dev,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q19,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q20,dev,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q21,dev,1,0,1,0,0.3333333333333333,0.25,1,747
+cross-encoder bge-reranker-v2-m3,Q22,dev,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q23,dev,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q25,test,1,0,1,0,0.3333333333333333,0.14285714285714285,1,747
+cross-encoder bge-reranker-v2-m3,Q26,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q27,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q29,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q30,test,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q31,test,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q32,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q33,test,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q34,test,1,1,1,1,0.3333333333333333,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q35,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q36,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q37,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q38,test,1,1,1,1,0.5,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q39,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q40,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q41,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q42,test,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q43,test,1,1,1,1,1.0,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q44,test,1,0,1,0,0.5,0.25,1,747
+cross-encoder bge-reranker-v2-m3,Q45,test,0,0,0,0,0.0,0.0,0,747
+cross-encoder bge-reranker-v2-m3,Q46,test,1,1,1,1,0.5,0.3333333333333333,1,747
+cross-encoder bge-reranker-v2-m3,Q47,test,0,1,0,1,0.2,0.5,1,747
+cross-encoder bge-reranker-v2-m3,Q48,test,1,1,1,1,1.0,1.0,1,747
+cross-encoder bge-reranker-v2-m3,Q49,test,0,0,0,0,0.0,0.0,0,747
+binding + hybrid + Top 30,Q01,dev,1,1,1,1,1.0,0.5,1,458
+binding + hybrid + Top 30,Q02,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q03,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q04,dev,0,0,0,0,0.14285714285714285,0.125,1,458
+binding + hybrid + Top 30,Q05,dev,0,1,0,1,0.16666666666666666,0.5,1,458
+binding + hybrid + Top 30,Q06,dev,1,1,1,1,0.3333333333333333,1.0,1,458
+binding + hybrid + Top 30,Q07,dev,1,0,1,0,1.0,0.25,1,458
+binding + hybrid + Top 30,Q08,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q09,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q10,dev,0,0,0,0,0.25,0.0,1,458
+binding + hybrid + Top 30,Q11,dev,0,1,0,0,0.14285714285714285,1.0,1,458
+binding + hybrid + Top 30,Q12,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q13,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q14,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q15,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q16,dev,1,1,1,1,0.3333333333333333,1.0,1,458
+binding + hybrid + Top 30,Q17,dev,1,1,1,1,0.5,0.5,1,458
+binding + hybrid + Top 30,Q18,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q19,dev,0,0,0,0,0.0,0.125,1,458
+binding + hybrid + Top 30,Q20,dev,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30,Q21,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q22,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q23,dev,0,1,0,1,0.14285714285714285,1.0,1,458
+binding + hybrid + Top 30,Q24,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q25,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30,Q26,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30,Q27,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q28,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30,Q29,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q30,test,1,1,1,1,0.5,0.5,1,458
+binding + hybrid + Top 30,Q31,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q32,test,0,1,0,1,0.0,0.3333333333333333,1,458
+binding + hybrid + Top 30,Q33,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q34,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q35,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q36,test,0,1,0,1,0.14285714285714285,0.5,1,458
+binding + hybrid + Top 30,Q37,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q38,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q39,test,0,1,0,1,0.25,0.5,1,458
+binding + hybrid + Top 30,Q40,test,0,1,0,0,0.0,1.0,1,458
+binding + hybrid + Top 30,Q41,test,0,1,0,1,0.1111111111111111,1.0,1,458
+binding + hybrid + Top 30,Q42,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q43,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q44,test,1,1,1,1,1.0,0.5,1,458
+binding + hybrid + Top 30,Q45,test,0,0,0,0,0.2,0.25,1,458
+binding + hybrid + Top 30,Q46,test,1,0,1,0,0.5,0.1111111111111111,1,458
+binding + hybrid + Top 30,Q47,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q48,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30,Q49,test,0,0,0,0,0.0,0.0,0,458
+binding + hybrid + Top 30 + L12,Q01,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q02,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q03,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q04,dev,0,0,0,0,0.14285714285714285,0.125,1,458
+binding + hybrid + Top 30 + L12,Q05,dev,0,1,0,1,0.16666666666666666,0.5,1,458
+binding + hybrid + Top 30 + L12,Q06,dev,1,1,1,1,0.3333333333333333,1.0,1,458
+binding + hybrid + Top 30 + L12,Q07,dev,1,0,1,0,1.0,0.1111111111111111,1,458
+binding + hybrid + Top 30 + L12,Q08,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q09,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q10,dev,0,0,0,0,0.25,0.25,1,458
+binding + hybrid + Top 30 + L12,Q11,dev,0,1,0,0,0.14285714285714285,1.0,1,458
+binding + hybrid + Top 30 + L12,Q12,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q13,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q14,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q15,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q16,dev,1,1,1,1,0.3333333333333333,1.0,1,458
+binding + hybrid + Top 30 + L12,Q17,dev,1,1,1,1,0.5,0.5,1,458
+binding + hybrid + Top 30 + L12,Q18,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q19,dev,0,0,0,0,0.0,0.0,1,458
+binding + hybrid + Top 30 + L12,Q20,dev,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + L12,Q21,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q22,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q23,dev,0,1,0,1,0.14285714285714285,1.0,1,458
+binding + hybrid + Top 30 + L12,Q24,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q25,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + L12,Q26,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + L12,Q27,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q28,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + L12,Q29,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q30,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + L12,Q31,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q32,test,0,0,0,0,0.0,0.16666666666666666,1,458
+binding + hybrid + Top 30 + L12,Q33,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q34,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q35,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q36,test,0,1,0,1,0.14285714285714285,0.5,1,458
+binding + hybrid + Top 30 + L12,Q37,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q38,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q39,test,0,1,0,1,0.25,1.0,1,458
+binding + hybrid + Top 30 + L12,Q40,test,0,1,0,0,0.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q41,test,0,1,0,1,0.1111111111111111,1.0,1,458
+binding + hybrid + Top 30 + L12,Q42,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q43,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q44,test,1,1,1,1,1.0,0.5,1,458
+binding + hybrid + Top 30 + L12,Q45,test,0,0,0,0,0.2,0.25,1,458
+binding + hybrid + Top 30 + L12,Q46,test,1,0,1,0,0.5,0.2,1,458
+binding + hybrid + Top 30 + L12,Q47,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q48,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + L12,Q49,test,0,0,0,0,0.0,0.0,0,458
+binding + hybrid + Top 30 + bge-v2-m3,Q01,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q02,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q03,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q04,dev,0,0,0,0,0.14285714285714285,0.16666666666666666,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q05,dev,0,1,0,1,0.16666666666666666,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q06,dev,1,1,1,1,0.3333333333333333,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q07,dev,1,0,1,0,1.0,0.1,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q08,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q09,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q10,dev,0,1,0,1,0.25,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q11,dev,0,1,0,0,0.14285714285714285,0.5,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q12,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q13,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q14,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q15,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q16,dev,1,1,1,1,0.3333333333333333,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q17,dev,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q18,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q19,dev,0,0,0,0,0.0,0.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q20,dev,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q21,dev,1,0,1,0,1.0,0.16666666666666666,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q22,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q23,dev,0,1,0,1,0.14285714285714285,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q24,dev,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q25,test,1,0,1,0,0.5,0.125,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q26,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q27,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q28,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q29,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q30,test,1,1,1,1,0.5,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q31,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q32,test,0,1,0,1,0.0,0.5,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q33,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q34,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q35,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q36,test,0,1,0,1,0.14285714285714285,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q37,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q38,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q39,test,0,1,0,1,0.25,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q40,test,0,1,0,0,0.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q41,test,0,1,0,1,0.1111111111111111,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q42,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q43,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q44,test,1,1,1,1,1.0,0.3333333333333333,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q45,test,0,0,0,0,0.2,0.2,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q46,test,1,1,1,1,0.5,0.5,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q47,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q48,test,1,1,1,1,1.0,1.0,1,458
+binding + hybrid + Top 30 + bge-v2-m3,Q49,test,0,0,0,0,0.0,0.0,0,458
+binding + ≤120 tok + hybrid + Top 30 + L12,Q01,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q02,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q03,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q04,dev,0,0,0,0,0.1111111111111111,0.2,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q05,dev,0,0,0,0,0.0,0.0,0,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q06,dev,0,1,0,1,0.0,0.5,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q07,dev,0,0,0,0,0.14285714285714285,0.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q08,dev,0,1,0,1,0.0,0.3333333333333333,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q09,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q10,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q11,dev,0,1,0,0,0.14285714285714285,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q12,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q13,dev,1,1,1,1,0.5,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q14,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q15,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q16,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q17,dev,0,1,0,1,0.14285714285714285,0.3333333333333333,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q18,dev,1,1,1,1,0.5,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q19,dev,0,0,0,0,0.0,0.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q20,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q21,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q22,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q23,dev,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q25,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q26,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q27,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q28,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q29,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q30,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q31,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q32,test,0,0,0,0,0.0,0.0,0,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q33,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q34,test,1,1,1,1,0.5,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q35,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q36,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q37,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q38,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q39,test,0,1,0,1,0.0,0.5,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q40,test,0,1,0,0,0.2,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q41,test,0,0,0,0,0.0,0.1111111111111111,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q42,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q43,test,1,1,1,1,1.0,0.5,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q44,test,1,0,1,0,1.0,0.25,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q45,test,1,1,1,1,0.5,0.3333333333333333,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q46,test,1,1,1,1,0.5,0.5,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q47,test,1,1,1,1,1.0,1.0,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q48,test,1,1,1,1,0.3333333333333333,0.5,1,1038
+binding + ≤120 tok + hybrid + Top 30 + L12,Q49,test,0,0,0,0,0.0,0.0,0,1038
+all text + ≤120 tok + hybrid + Top 30 + L12,Q01,dev,1,1,1,1,1.0,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q02,dev,1,1,1,1,0.5,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q03,dev,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q04,dev,0,0,0,0,0.0,0.125,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q05,dev,0,0,0,0,0.0,0.0,0,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q06,dev,0,1,0,1,0.0,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q07,dev,0,0,0,0,0.0,0.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q08,dev,0,0,0,0,0.0,0.16666666666666666,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q09,dev,1,1,1,1,0.5,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q10,dev,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q11,dev,0,1,0,0,0.14285714285714285,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q12,dev,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q13,dev,1,1,1,1,0.3333333333333333,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q14,dev,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q15,dev,1,1,1,1,1.0,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q16,dev,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q17,dev,0,0,0,0,0.1,0.25,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q18,dev,1,1,1,1,0.5,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q19,dev,0,0,0,0,0.0,0.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q20,dev,1,1,1,1,1.0,0.3333333333333333,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q21,dev,1,1,1,1,0.5,0.3333333333333333,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q22,dev,1,1,1,1,1.0,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q23,dev,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q24,dev,1,1,1,1,0.3333333333333333,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q25,test,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q26,test,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q27,test,1,1,1,1,0.5,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q28,test,1,1,1,1,0.3333333333333333,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q29,test,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q30,test,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q31,test,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q32,test,0,0,0,0,0.0,0.0,0,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q33,test,1,1,1,1,0.5,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q34,test,1,1,1,1,0.3333333333333333,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q35,test,1,1,1,1,1.0,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q36,test,1,1,1,1,0.5,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q37,test,1,1,1,1,1.0,0.3333333333333333,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q38,test,1,1,1,1,0.3333333333333333,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q39,test,0,0,0,0,0.0,0.25,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q40,test,0,1,0,0,0.14285714285714285,1.0,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q41,test,0,0,0,0,0.0,0.125,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q42,test,1,1,1,1,0.5,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q43,test,1,1,1,1,1.0,0.3333333333333333,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q44,test,1,0,1,0,0.5,0.125,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q45,test,0,0,0,0,0.1111111111111111,0.1,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q46,test,1,1,1,1,0.5,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q47,test,1,1,1,1,0.5,0.3333333333333333,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q48,test,1,1,1,1,0.3333333333333333,0.5,1,1610
+all text + ≤120 tok + hybrid + Top 30 + L12,Q49,test,0,0,0,0,0.0,0.0,0,1610
