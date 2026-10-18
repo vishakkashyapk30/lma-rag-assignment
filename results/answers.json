@@ -1,0 +1,1619 @@
+{
+ "baseline||Is it allowed to use AI to detect the emotions of employees at their workplace?": {
+  "answer": "No, it is not allowed to use AI to infer emotions of natural persons in the areas of workplace and education institutions, except where the use of the AI system is intended to be put in place or into the market for medical or safety reasons. [Article 5 – Prohibited AI practices, para 1, part f]",
+  "llm_ms": 5017.120856000474,
+  "context_ids": [
+   75,
+   28,
+   319
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is it allowed to use AI to detect the emotions of employees at their workplace?": {
+  "answer": "The placing on the market, the putting into service, or the use of AI systems intended to be used to detect the emotional state of individuals in situations related to the workplace and education should be prohibited. However, this prohibition does not apply if the use of the AI system is intended for medical or safety reasons. [Recital 44] [Article 5 – Prohibited AI practices, para 1, part 4/6]",
+  "llm_ms": 6247.4011320009595,
+  "context_ids": [
+   75,
+   476,
+   319
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is it legal to build a face recognition database by scraping photos from the internet?": {
+  "answer": "It is not legal to build a face recognition database by scraping photos from the internet. This practice should be prohibited because it adds to the feeling of mass surveillance and can lead to gross violations of fundamental rights, including the right to privacy. [Recital 43]",
+  "llm_ms": 4025.8123410003464,
+  "context_ids": [
+   74,
+   53,
+   320
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is it legal to build a face recognition database by scraping photos from the internet?": {
+  "answer": "It is not legal to build a face recognition database by scraping photos from the internet without targeting specific individuals. This practice is explicitly prohibited as it adds to feelings of mass surveillance and can lead to gross violations of fundamental rights, including privacy. [Recital 43] Additionally, this prohibition applies to both the placing on market, putting into service, or use of such AI systems. [Article 5 – Prohibited AI practices, para 1, part 4/6]",
+  "llm_ms": 6737.361493000208,
+  "context_ids": [
+   74,
+   319,
+   53
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Can an AI system be used to predict whether a person will commit a crime?": {
+  "answer": "An AI system cannot be used to make risk assessments of natural persons based solely on profiling or assessing personality traits and characteristics for the purpose of predicting criminal activity. However, such systems can support human assessment if it is already based on objective and verifiable facts directly linked to a criminal activity. [Article 5 – Prohibited AI practices, para 1, part 3/6]",
+  "llm_ms": 5776.536941000813,
+  "context_ids": [
+   318,
+   106,
+   107
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Can an AI system be used to predict whether a person will commit a crime?": {
+  "answer": "An AI system cannot be used to make risk assessments of natural persons based solely on profiling or assessing personality traits and characteristics for the purpose of predicting criminal offences. However, such systems can support human assessment if it is based on objective and verifiable facts directly linked to a criminal activity. [Article 5 – Prohibited AI practices, para 1, part 3/6]",
+  "llm_ms": 5704.297029000372,
+  "context_ids": [
+   106,
+   318,
+   107
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||When are police allowed to use real-time remote biometric identification in public spaces?": {
+  "answer": "Police are allowed to use real-time remote biometric identification systems in publicly accessible spaces for law enforcement purposes if they have completed a fundamental rights impact assessment and registered the system as required by the Regulation. This must be done before deployment, and the use should comply with necessary and proportionate safeguards and conditions set by national laws. [Recital 34, Article 5 – Prohibited AI practices]",
+  "llm_ms": 5711.064191000332,
+  "context_ids": [
+   61,
+   322,
+   323
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||When are police allowed to use real-time remote biometric identification in public spaces?": {
+  "answer": "Police are allowed to use real-time remote biometric identification systems in publicly accessible spaces for law enforcement purposes only if they have completed a fundamental rights impact assessment and registered the system in the EU database as required by Article 49, unless there is a duly justified case of urgency where registration can be delayed. [Article 5 – Prohibited AI practices, para 2]",
+  "llm_ms": 5255.830625001181,
+  "context_ids": [
+   61,
+   324,
+   327
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Can real-time biometric identification be used before a judge or authority has approved it?": {
+  "answer": "Real-time biometric identification can only be used after approval from a competent judicial authority or an independent administrative authority. This approval must be based on objective evidence or clear indications showing that such use is necessary and proportionate for achieving specified objectives, with the decision not being solely based on the output of the system. [Article 5 – Prohibited AI practices, para 3, part 2/2]",
+  "llm_ms": 5816.41095699888,
+  "context_ids": [
+   63,
+   326,
+   61
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Can real-time biometric identification be used before a judge or authority has approved it?": {
+  "answer": "Real-time biometric identification cannot be used before a competent judicial authority or an independent administrative authority grants the necessary authorisation. This approval must be based on objective evidence or clear indications that the use is necessary and proportionate for achieving specified objectives, as identified in the request. [Article 5 – Prohibited AI practices, para 3]",
+  "llm_ms": 4912.258438000208,
+  "context_ids": [
+   61,
+   63,
+   326
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is every AI system listed in Annex III automatically considered high-risk?": {
+  "answer": "No, not every AI system listed in Annex III is automatically considered high-risk. According to Article 7 – Amendments to Annex III, para 1, the Commission can only amend Annex III by adding or modifying use-cases of high-risk AI systems where both conditions (a) and (b) are fulfilled: the AI systems must be intended for use in areas listed in Annex III, and they must pose a risk equivalent to or greater than that of existing high-risk AI systems already referred to in Annex III. [Article 7 – Amendments to Annex III]",
+  "llm_ms": 7673.699882001529,
+  "context_ids": [
+   473,
+   291,
+   337
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is every AI system listed in Annex III automatically considered high-risk?": {
+  "answer": "No, not every AI system listed in Annex III is automatically considered high-risk. Providers must assess whether an AI system referred to in Annex III is indeed high-risk and document this assessment before placing the system on the market or putting it into service. [Article 6 – Classification rules for high-risk AI systems, para 4–5]",
+  "llm_ms": 4971.592231999239,
+  "context_ids": [
+   334,
+   337,
+   341
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Do providers of open-source general-purpose AI models have to prepare technical documentation?": {
+  "answer": "Providers of open-source general-purpose AI models are not mandated to comply with the requirements targeting responsibilities along the AI value chain, as stated in [Recital 89]. However, they should be encouraged to implement widely adopted documentation practices such as model cards and data sheets for promoting trustworthy AI systems, though this is more about voluntary practice rather than a mandatory requirement. The specific obligation to prepare technical documentation applies to general-purpose AI models provided by providers, not specifically mentioning open-source ones, according to [Recital 101].",
+  "llm_ms": 7518.866888000048,
+  "context_ids": [
+   155,
+   189,
+   172
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Do providers of open-source general-purpose AI models have to prepare technical documentation?": {
+  "answer": "Providers of open-source general-purpose AI models are required to prepare technical documentation. According to Article 53 (1)(a) of the EU Artificial Intelligence Act, they must draw up and keep up-to-date the technical documentation of the model, including its training and testing process and evaluation results. This obligation applies regardless of whether the model is open-source or proprietary. [Article 53 – Obligations for providers of general-purpose AI models]",
+  "llm_ms": 6739.868089000083,
+  "context_ids": [
+   172,
+   485,
+   155
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Do deepfakes have to be labelled even when they are part of a satirical or artistic work?": {
+  "answer": "Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake do not necessarily need to label it as such if the content is part of an evidently creative, satirical, artistic, fictional or analogous work or programme, subject to appropriate safeguards for the rights and freedoms of third parties. [Context 2] However, this exemption does not apply if the transparency obligation is limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work. [Context 3]",
+  "llm_ms": 8229.391687000316,
+  "context_ids": [
+   220,
+   219,
+   477
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Do deepfakes have to be labelled even when they are part of a satirical or artistic work?": {
+  "answer": "Deployers do not need to label deep fakes as artificially created if they form part of an evidently creative, satirical, artistic, fictional, or analogous work, provided there are appropriate safeguards for the rights and freedoms of third parties. [Recital 134] However, this exemption does not apply if the content is published with the purpose of informing the public on matters of public interest unless it has undergone a process of human review or editorial control. [Recital 134, Article 50]",
+  "llm_ms": 7685.681663000651,
+  "context_ids": [
+   219,
+   477,
+   220
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Does the AI Act apply to AI systems used only for military purposes?": {
+  "answer": "The AI Act does not apply to AI systems that are placed on the market, put into service, or used exclusively for military, defence, or national security purposes. [Article 2 – Scope, para 3]",
+  "llm_ms": 3452.6488810006413,
+  "context_ids": [
+   40,
+   41,
+   292
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Does the AI Act apply to AI systems used only for military purposes?": {
+  "answer": "The AI Act does not apply to AI systems that are placed on the market, put into service, or used exclusively for military, defence, or national security purposes. [Article 2 – Scope, para 3]",
+  "llm_ms": 3069.1396059992258,
+  "context_ids": [
+   40,
+   41,
+   292
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Does a person using an AI system for a personal hobby have obligations under the AI Act?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1111.8873069990514,
+  "context_ids": [
+   296,
+   151,
+   474
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Does a person using an AI system for a personal hobby have obligations under the AI Act?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1063.0883700014238,
+  "context_ids": [
+   474,
+   317,
+   40
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What is the maximum fine for a start-up that puts a prohibited AI system on the market?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1082.710730999679,
+  "context_ids": [
+   634,
+   667,
+   289
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What is the maximum fine for a start-up that puts a prohibited AI system on the market?": {
+  "answer": "The maximum fine for a start-up that puts a prohibited AI system on the market is up to EUR 35,000,000 or 7% of its total worldwide annual turnover for the preceding financial year, whichever is higher. This is based on Article 99 para 3 of the context provided.",
+  "llm_ms": 4862.984028999563,
+  "context_ids": [
+   634,
+   644,
+   645
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What is the fine for giving misleading information to the authorities?": {
+  "answer": "The supply of incorrect, incomplete or misleading information to notified bodies or national competent authorities in reply to a request shall be subject to administrative fines of up to EUR 7 500 000 or, if the offender is an undertaking, up to 1 % of its total worldwide annual turnover for the preceding financial year, whichever is higher. [Article 99 – Penalties, para 5–6]",
+  "llm_ms": 6417.460287000722,
+  "context_ids": [
+   636,
+   638,
+   643
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What is the fine for giving misleading information to the authorities?": {
+  "answer": "The supply of incorrect, incomplete or misleading information to notified bodies or national competent authorities in reply to a request shall be subject to administrative fines of up to EUR 7 500 000 or, if the offender is an undertaking, up to 1 % of its total worldwide annual turnover for the preceding financial year, whichever is higher. [Article 99 – Penalties, para 5–6]",
+  "llm_ms": 6184.39559899889,
+  "context_ids": [
+   636,
+   637,
+   638
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What fines can be imposed on providers of general-purpose AI models?": {
+  "answer": "Fines for providers of general-purpose AI models can be imposed, not exceeding 3% of their annual total worldwide turnover in the preceding financial year or EUR 15,000,000, whichever is higher. This applies when the provider has intentionally or negligently infringed relevant provisions, failed to comply with requests for documents or information, or refused access to models for evaluation. The fine amount will consider the nature, gravity, and duration of the infringement, as well as any commitments made in accordance with Article 93(3) or relevant codes of practice. [Article 101 – Fines for providers of general-purpose AI models]",
+  "llm_ms": 9460.257672000807,
+  "context_ids": [
+   644,
+   645,
+   487
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What fines can be imposed on providers of general-purpose AI models?": {
+  "answer": "The Commission may impose fines not exceeding 3% of a provider's annual total worldwide turnover in the preceding financial year or EUR 15,000,000, whichever is higher. This applies when the provider has intentionally or negligently infringed relevant provisions, failed to comply with requests for documents or information, or refused access to their AI model for evaluation. The amount of the fine will consider the nature, gravity, and duration of the infringement, as well as any commitments made in accordance with Article 93(3). [Article 101 – Fines for providers of general-purpose AI models]",
+  "llm_ms": 9269.798319999609,
+  "context_ids": [
+   644,
+   645,
+   646
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What are the obligations of a deployer, as opposed to a provider, of a high-risk AI system?": {
+  "answer": "The obligations of a deployer include taking appropriate technical and organisational measures to use the system according to the instructions for use. They must assign competent human oversight to natural persons who have the necessary training and authority. These obligations are without prejudice to other deployer obligations under Union or national law. Deployers should also ensure input data is relevant and representative, especially if they control the input data. [Article 26 – Obligations of deployers of high-risk AI systems]",
+  "llm_ms": 7684.981857999446,
+  "context_ids": [
+   131,
+   402,
+   157
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What are the obligations of a deployer, as opposed to a provider, of a high-risk AI system?": {
+  "answer": "Deployers of high-risk AI systems must take appropriate technical and organisational measures to ensure they use such systems according to instructions for use. They should assign human oversight to competent individuals with necessary training and authority. Deployers are also required to monitor the operation of the system, inform providers or market surveillance authorities if there is a risk, and report serious incidents immediately. These obligations do not cover sensitive operational data of deployers who are law enforcement authorities. The obligations apply without prejudice to other deployer obligations under Union or national law. [Article 26 – Obligations of deployers of high-risk AI systems]",
+  "llm_ms": 9414.640236000196,
+  "context_ids": [
+   402,
+   403,
+   396
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||When is a distributor or deployer treated as the provider of a high-risk AI system?": {
+  "answer": "A distributor or deployer is treated as the provider of a high-risk AI system if they put their name or trademark on such a system already placed on the market or into service, or if they make substantial modifications to an existing high-risk AI system that keeps it classified as high-risk. Additionally, modifying the intended purpose of an AI system (including general-purpose systems) that was not initially classified as high-risk but is now considered a high-risk AI system due to such modification also qualifies. [Article 25 – Responsibilities along the AI value chain, para 1, part 1/2 and 2/2]",
+  "llm_ms": 9688.235411998903,
+  "context_ids": [
+   395,
+   396,
+   149
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||When is a distributor or deployer treated as the provider of a high-risk AI system?": {
+  "answer": "A distributor, importer, deployer, or other third-party is treated as the provider of a high-risk AI system if they put their name or trademark on such a system already placed on the market or in service [Context 1: Article 25 – Responsibilities along the AI value chain, para 1, part 1/2], or if they make a substantial modification to an existing high-risk AI system that keeps it classified as high-risk [Context 1: Article 25 – Responsibilities along the AI value chain, para 1, part 1/2]. Additionally, modifying the intended purpose of a non-high-risk AI system so that it becomes a high-risk one also qualifies [Context 3: Article 25 – Responsibilities along the AI value chain, para 1, part 2/2].",
+  "llm_ms": 12267.163406999316,
+  "context_ids": [
+   395,
+   149,
+   396
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What must an importer check before placing a high-risk AI system on the market?": {
+  "answer": "An importer must ensure that a high-risk AI system is not in conformity with the Regulation or is falsified before placing it on the market. If there are concerns, the system should be brought into conformity first [Context 1, Article 23, para 2].",
+  "llm_ms": 4136.562341000172,
+  "context_ids": [
+   390,
+   121,
+   391
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What must an importer check before placing a high-risk AI system on the market?": {
+  "answer": "Before placing a high-risk AI system on the market, importers must ensure that the system is in conformity with this Regulation by verifying several aspects:\n- The relevant conformity assessment procedure has been carried out by the provider.\n- The provider has drawn up the technical documentation as required.\n- The system bears the CE marking and comes with the EU declaration of conformity and instructions for use.\n- An authorised representative has been appointed, if applicable. [Article 23 – Obligations of importers, para 1]",
+  "llm_ms": 8130.399061001299,
+  "context_ids": [
+   389,
+   390,
+   392
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Which deployers must carry out a fundamental rights impact assessment?": {
+  "answer": "Deployers that are bodies governed by public law, or private entities providing public services, must carry out a fundamental rights impact assessment. This includes banking or insurance entities as well as private entities involved in tasks of public interest such as education, healthcare, social services, housing, and administration of justice. The assessment should be performed prior to deploying the high-risk AI system and updated if relevant factors change. [Recital 96]",
+  "llm_ms": 6759.968645999834,
+  "context_ids": [
+   163,
+   414,
+   411
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Which deployers must carry out a fundamental rights impact assessment?": {
+  "answer": "Deployers that are bodies governed by public law, or private entities providing public services, must carry out a fundamental rights impact assessment. This includes banking or insurance entities as well as private entities involved in tasks of public interest such as education, healthcare, social services, housing, and administration of justice. [Recital 96]",
+  "llm_ms": 5184.831746999407,
+  "context_ids": [
+   163,
+   413,
+   411
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||How much training compute makes a general-purpose AI model count as having systemic risk?": {
+  "answer": "A general-purpose AI model shall be presumed to have high impact capabilities, and thus count as having systemic risk, when the cumulative amount of computation used for its training measured in floating point operations is greater than 10^25. [Article 51 – Classification of general-purpose AI models as general-purpose AI models with systemic risk, para 2]",
+  "llm_ms": 5802.6914069996565,
+  "context_ids": [
+   480,
+   188,
+   185
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||How much training compute makes a general-purpose AI model count as having systemic risk?": {
+  "answer": "A general-purpose AI model shall be presumed to have high impact capabilities, and thus count as having systemic risk, when the cumulative amount of computation used for its training measured in floating point operations is greater than 10^25. [Article 51 – Classification of general-purpose AI models as general-purpose AI models with systemic risk, para 2]",
+  "llm_ms": 5197.945410000102,
+  "context_ids": [
+   480,
+   188,
+   185
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||From what date do the bans on unacceptable AI practices start to apply?": {
+  "answer": "The bans on unacceptable AI practices should already apply from 2 February 2025, as stated in [Recital 179].",
+  "llm_ms": 2965.256588000557,
+  "context_ids": [
+   286,
+   648,
+   658
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||From what date do the bans on unacceptable AI practices start to apply?": {
+  "answer": "The bans on unacceptable AI practices should already apply from 2 February 2025, as stated in [Recital 179, part 1/2].",
+  "llm_ms": 2993.0746760001057,
+  "context_ids": [
+   286,
+   287,
+   667
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Do people have to be told that they are chatting with a bot?": {
+  "answer": "Yes, people generally need to be informed that they are interacting with an AI system when using chatbots or similar systems. However, this requirement does not apply if it is obvious from the interaction itself, considering the context and circumstances. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 1]",
+  "llm_ms": 5199.673036000604,
+  "context_ids": [
+   474,
+   215,
+   198
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Do people have to be told that they are chatting with a bot?": {
+  "answer": "Yes, people should be notified that they are interacting with an AI system unless it is obvious from the context. This applies particularly when the AI system is intended to interact with natural persons, as stated in [Recital 132].",
+  "llm_ms": 4091.2792700000864,
+  "context_ids": [
+   215,
+   25,
+   22
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is an AI system used for credit scoring considered high-risk?": {
+  "answer": "Yes, an AI system used for credit scoring is considered high-risk. However, this classification does not apply to AI systems used for the purpose of detecting financial fraud. [Context 1]",
+  "llm_ms": 3451.0830369999894,
+  "context_ids": [
+   102,
+   334,
+   692
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is an AI system used for credit scoring considered high-risk?": {
+  "answer": "Yes, an AI system used for credit scoring is considered high-risk. However, this classification does not apply to AI systems used for detecting financial fraud. [Context 1]",
+  "llm_ms": 2919.2164779997256,
+  "context_ids": [
+   102,
+   692,
+   151
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Does a person affected by a decision made with a high-risk AI system have a right to an explanation?": {
+  "answer": "Yes, a person affected by a decision made with a high-risk AI system has the right to an explanation. However, this right does not apply if Union or national law provides exceptions or restrictions, and it only applies where the decision produces legal effects or similarly significantly affects the person in a way that they consider to have an adverse impact on their health, safety, or fundamental rights. [Article 86 - Right to explanation of individual decision-making]",
+  "llm_ms": 7337.955494998823,
+  "context_ids": [
+   610,
+   276,
+   334
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Does a person affected by a decision made with a high-risk AI system have a right to an explanation?": {
+  "answer": "Yes, a person affected by a decision made with a high-risk AI system has a right to an explanation. However, this right does not apply if the use of the AI system is subject to exceptions or restrictions under Union or national law in compliance with Union law [Context 1; Context 2].",
+  "llm_ms": 5017.271812999752,
+  "context_ids": [
+   276,
+   610,
+   332
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||For how long must providers keep the technical documentation of a high-risk AI system?": {
+  "answer": "Providers must keep the technical documentation up to date and appropriately throughout the lifetime of the AI system. [Recital 71]",
+  "llm_ms": 2652.9717250014073,
+  "context_ids": [
+   129,
+   91,
+   372
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||For how long must providers keep the technical documentation of a high-risk AI system?": {
+  "answer": "Providers shall keep the technical documentation referred to in Article 18 for a period of 10 years after the high-risk AI system has been placed on the market or put into service, as per [Article 23 – Obligations of importers, para 5–7]. This obligation is similar for providers and importers.",
+  "llm_ms": 5042.388891999508,
+  "context_ids": [
+   391,
+   129,
+   372
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What is the definition of an AI system?": {
+  "answer": "For the purposes of this Regulation, an AI system means a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment. It infers from the input it receives how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments, for explicit or implicit objectives. [Article 3 - Definitions]",
+  "llm_ms": 6160.260206999737,
+  "context_ids": [
+   18,
+   17,
+   296
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What is the definition of an AI system?": {
+  "answer": "An AI system is a machine-based system designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment. It infers from input received to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments (Article 3 – Definitions, definition 1).",
+  "llm_ms": 4896.647265000865,
+  "context_ids": [
+   296,
+   17,
+   18
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Are SMEs and start-ups given lower fines under the AI Act?": {
+  "answer": "Yes, SMEs, including start-ups, are given lower fines under the AI Act. The fine for these entities shall be up to the percentages or amount referred to in paragraphs 3, 4, and 5, whichever is lower [Article 99 – Penalties, para 6].",
+  "llm_ms": 4975.988324000355,
+  "context_ids": [
+   537,
+   289,
+   636
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Are SMEs and start-ups given lower fines under the AI Act?": {
+  "answer": "Yes, SMEs and start-ups are given lower fines under the AI Act. According to Article 99 para 6, each fine for these entities shall be up to the percentages or amount referred to in paragraphs 3, 4, and 5, whichever is lower.",
+  "llm_ms": 4475.8755910006585,
+  "context_ids": [
+   636,
+   539,
+   537
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is it prohibited to use AI that exploits the vulnerabilities of children or elderly people?": {
+  "answer": "It is prohibited to use AI that exploits the vulnerabilities of persons, including children and elderly people. However, this prohibition does not cover AI systems placed on the market strictly for medical or safety reasons, such as those intended for therapeutical use. [Recital 29, part 2/4] [Recital 44, part 2/2]",
+  "llm_ms": 5709.2401620011515,
+  "context_ids": [
+   48,
+   50,
+   76
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is it prohibited to use AI that exploits the vulnerabilities of children or elderly people?": {
+  "answer": "Yes, it is prohibited. The context specifies that AI systems which exploit the vulnerabilities of specific groups, including those due to age (such as children and elderly people), are subject to prohibition if they aim to distort behavior significantly harmfully. [Recital 29]",
+  "llm_ms": 4374.38757199925,
+  "context_ids": [
+   50,
+   48,
+   316
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Can a company use biometric data to sort people by their race or sexual orientation?": {
+  "answer": "No, using biometric data to deduce or infer an individual's political opinions, trade union membership, religious or philosophical beliefs, race, sex life, or sexual orientation should be prohibited. However, sorting individuals according to less sensitive characteristics like hair colour or eye colour for law enforcement purposes is allowed. [Recital 30]",
+  "llm_ms": 5194.0007520006475,
+  "context_ids": [
+   53,
+   23,
+   93
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Can a company use biometric data to sort people by their race or sexual orientation?": {
+  "answer": "No, according to [Article 5 – Prohibited AI practices, para 1, part 5/6], using biometric categorisation systems that categorise individuals based on their biometric data to deduce or infer aspects such as race or sexual orientation is prohibited. However, the prohibition does not cover lawful labelling or filtering of biometric datasets acquired in line with Union or national law, such as sorting images according to hair colour or eye colour for use in areas like law enforcement.",
+  "llm_ms": 7347.674949000066,
+  "context_ids": [
+   53,
+   320,
+   23
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is social scoring of citizens banned?": {
+  "answer": "Social scoring of citizens by public or private actors is prohibited under the EU Artificial Intelligence Act. This prohibition applies to AI systems that evaluate or classify natural persons based on their social behaviour and may lead to detrimental or unfavourable treatment unrelated to the context in which the data was collected, or if such treatment is unjustified or disproportionate. [Recital 31] However, this prohibition does not affect lawful evaluation practices carried out for a specific purpose in accordance with Union and national law. [Article 5 – Prohibited AI practices, para 1, part 2/6]",
+  "llm_ms": 8881.332418000966,
+  "context_ids": [
+   54,
+   318,
+   317
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is social scoring of citizens banned?": {
+  "answer": "Social scoring of natural persons by public or private actors is prohibited under certain conditions. Specifically, AI systems that provide social scoring leading to detrimental or unfavourable treatment of individuals in unrelated contexts or disproportionate treatment based on their behavior are banned. However, lawful evaluation practices for specific purposes can still be carried out according to Union and national law. [Recital 31]",
+  "llm_ms": 5723.205360000065,
+  "context_ids": [
+   54,
+   317,
+   318
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||How quickly must a provider report a serious incident that caused a person's death?": {
+  "answer": "The provider or deployer must provide an immediate report after establishing a causal relationship between the high-risk AI system and the death, but not later than 10 days from when they become aware of the serious incident. [Article 73 – Reporting of serious incidents, para 4]",
+  "llm_ms": 4874.363093000284,
+  "context_ids": [
+   569,
+   568,
+   570
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||How quickly must a provider report a serious incident that caused a person's death?": {
+  "answer": "The provider or deployer must provide an immediate report after establishing a causal relationship between the high-risk AI system and the death, but no later than 10 days from when they become aware of the incident. [Article 73 – Reporting of serious incidents, para 4]",
+  "llm_ms": 4138.626212999952,
+  "context_ids": [
+   569,
+   568,
+   570
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What is the deadline for reporting a serious incident?": {
+  "answer": "The report shall be made immediately after the provider has established a causal link between the AI system and the serious incident or the reasonable likelihood of such a link, and, in any event, not later than 15 days after the provider or, where applicable, the deployer becomes aware of the serious incident. However, this deadline can be shortened to two days if it is a widespread infringement or a serious incident as defined in Article 3, point (49)(b). [Article 73 – Reporting of serious incidents, para 1–3] [Article 73 – Reporting of serious incidents, para 11]",
+  "llm_ms": 9268.000421001489,
+  "context_ids": [
+   569,
+   572,
+   568
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What is the deadline for reporting a serious incident?": {
+  "answer": "The report shall be made immediately after the provider has established a causal link between the AI system and the serious incident or the reasonable likelihood of such a link, and, in any event, not later than 15 days after the provider or, where applicable, the deployer becomes aware of the serious incident. However, this deadline can be shortened to two days if it is a widespread infringement or a serious incident as defined in Article 3, point (49)(b). [Article 73 – Reporting of serious incidents, para 1–3] [Article 73 – Reporting of serious incidents, para 8–10]",
+  "llm_ms": 9531.603915000233,
+  "context_ids": [
+   569,
+   568,
+   571
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Does an employer have to inform workers before using a high-risk AI system in the workplace?": {
+  "answer": "Yes, an employer has to inform workers before using a high-risk AI system in the workplace. This obligation is specified under Article 26(7) of the Regulation, which states that employers deploying high-risk AI systems should inform workers' representatives and affected workers about the use of such systems. The information must be provided according to relevant Union and national laws and practices on informing workers and their representatives.",
+  "llm_ms": 6650.890518998494,
+  "context_ids": [
+   158,
+   691,
+   405
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Does an employer have to inform workers before using a high-risk AI system in the workplace?": {
+  "answer": "Yes, an employer has to inform workers before using a high-risk AI system in the workplace. This obligation is laid down in [Article 26 – Obligations of deployers of high-risk AI systems, para 7], which states that employers deploying such systems must inform workers and their representatives about the use of these systems, provided this is done in accordance with relevant Union and national laws and practices on information rights.",
+  "llm_ms": 6328.8961599992035,
+  "context_ids": [
+   158,
+   405,
+   295
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Can a high-risk AI system be used without completing the conformity assessment?": {
+  "answer": "No, a high-risk AI system cannot be used without completing the conformity assessment. According to Context 1 and Context 2, such systems should undergo a conformity assessment before being placed on the market or put into service. Specifically, for high-risk AI systems, providers must follow the internal control-based conformity assessment procedure as detailed in Annex VI.",
+  "llm_ms": 5233.229722000033,
+  "context_ids": [
+   204,
+   454,
+   152
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Can a high-risk AI system be used without completing the conformity assessment?": {
+  "answer": "No, a high-risk AI system cannot be used without completing the conformity assessment. According to [Recital 123], such systems should be subject to a conformity assessment prior to their placing on the market or putting into service. However, [Recital 125] specifies that this assessment is generally carried out by the provider under its own responsibility, with an exception for AI systems intended for biometrics which would involve notified bodies.",
+  "llm_ms": 6489.033343999836,
+  "context_ids": [
+   206,
+   84,
+   204
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Do AI-generated news articles need to be disclosed if a human editor reviewed them?": {
+  "answer": "AI-generated news articles do not need to be disclosed if they have undergone a process of human review or editorial control and a natural or legal person holds editorial responsibility for the publication of the content. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 4]",
+  "llm_ms": 4505.090488999485,
+  "context_ids": [
+   478,
+   220,
+   477
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Do AI-generated news articles need to be disclosed if a human editor reviewed them?": {
+  "answer": "Yes, AI-generated news articles need to be disclosed if they have undergone a process of human review or editorial control and a natural or legal person holds editorial responsibility for the publication of the content. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 4]",
+  "llm_ms": 4497.595021999587,
+  "context_ids": [
+   220,
+   478,
+   477
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Must people be informed when an emotion recognition system is used on them?": {
+  "answer": "Yes, people must be informed when an emotion recognition system is used on them. This obligation applies unless the AI system is used for detecting, preventing or investigating criminal offences as permitted by law, in which case this specific condition does not apply [Article 50 - Transparency obligations for providers and deployers of certain AI systems, para 3].",
+  "llm_ms": 5383.668434000356,
+  "context_ids": [
+   28,
+   75,
+   476
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Must people be informed when an emotion recognition system is used on them?": {
+  "answer": "Yes, people must be informed when an emotion recognition system is used on them. However, this obligation does not apply if the system is permitted by law to detect, prevent or investigate criminal offences and appropriate safeguards are in place for third parties' rights and freedoms, as per Article 50(3) of the regulation.",
+  "llm_ms": 4952.9755910007225,
+  "context_ids": [
+   476,
+   28,
+   216
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is an AI tool that screens job applications and filters CVs high-risk?": {
+  "answer": "Yes, an AI tool that screens job applications and filters CVs is considered a high-risk AI system. This is because it falls under the category of AI systems intended to be used for recruitment or selection of natural persons, as stated in Context 1 [Annex III – High-risk AI systems referred to in Article 6(2), point 4].",
+  "llm_ms": 5430.581660000826,
+  "context_ids": [
+   691,
+   105,
+   120
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is an AI tool that screens job applications and filters CVs high-risk?": {
+  "answer": "Yes, an AI tool that screens job applications and filters CVs is considered a high-risk AI system. This is because it falls under the category of AI systems intended to be used for recruitment or selection of natural persons, as stated in Context 1 [Annex III – High-risk AI systems referred to in Article 6(2), point 4].",
+  "llm_ms": 5364.457001000119,
+  "context_ids": [
+   691,
+   371,
+   112
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Does the AI Act apply to AI being developed and tested before it is released?": {
+  "answer": "Yes, according to Context 2, para 2, providers or prospective providers may conduct testing of high-risk AI systems at any time before placing them on the market or putting them into service. However, this testing must comply with the conditions specified in Article 60, including cooperation with deployers where applicable [Article 60, para 4(h)].",
+  "llm_ms": 5585.821219998252,
+  "context_ids": [
+   524,
+   525,
+   530
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Does the AI Act apply to AI being developed and tested before it is released?": {
+  "answer": "The AI Act does not generally apply to AI systems and models specifically developed and put into service for scientific research and development. However, if such a system falls within the scope of the regulation and is eventually placed on the market or put into service, then the provisions would apply. Testing in real world conditions before placing an AI system on the market or putting it into service can be conducted under certain conditions, as specified in Article 60. Conditions include obtaining informed consent (or ensuring no negative effect on subjects if consent cannot be obtained), effective oversight by qualified persons, and the ability to reverse predictions, recommendations, or decisions. [Recital 25, Article 60]",
+  "llm_ms": 10300.454779000574,
+  "context_ids": [
+   42,
+   525,
+   531
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What happens to high-risk AI systems already on the market before the rules apply?": {
+  "answer": "High-risk AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked will be subject to certain conditions. Specifically, operators of these systems that undergo significant design changes after 2 August 2026 must comply with the Regulation by 2 August 2030. Providers of general-purpose AI models placed on the market before 2 August 2025 need to comply by 2 August 2027. [Article 111 - AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked, para 2–3]",
+  "llm_ms": 9961.5039349992,
+  "context_ids": [
+   667,
+   334,
+   149
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What happens to high-risk AI systems already on the market before the rules apply?": {
+  "answer": "High-risk AI systems already on the market before 2 August 2026 will be subject to significant changes in their designs only if those changes are made after that date. Providers and deployers of such systems intended for use by public authorities must comply with the Regulation's requirements and obligations by 2 August 2030. [Article 111 - AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked, para 2–3]",
+  "llm_ms": 7331.829980999828,
+  "context_ids": [
+   667,
+   334,
+   149
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Does the deepfake disclosure obligation apply when the content is used by law enforcement to investigate crimes?": {
+  "answer": "The deepfake disclosure obligation does not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences. [Article 50 - Transparency obligations for providers and deployers of certain AI systems, para 4]",
+  "llm_ms": 3923.837549000382,
+  "context_ids": [
+   220,
+   477,
+   588
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Does the deepfake disclosure obligation apply when the content is used by law enforcement to investigate crimes?": {
+  "answer": "The deepfake disclosure obligation does not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 4, part 1/2]",
+  "llm_ms": 4651.960106999468,
+  "context_ids": [
+   477,
+   220,
+   219
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Are there exceptions to the ban on emotion recognition at work?": {
+  "answer": "There are no explicit exceptions to the ban on emotion recognition systems in workplace situations as stated in Context 2 [Recital 44, part 1/2]. The regulation aims to prohibit such systems due to concerns about scientific reliability and potential discriminatory outcomes.",
+  "llm_ms": 4108.380776999184,
+  "context_ids": [
+   28,
+   75,
+   94
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Are there exceptions to the ban on emotion recognition at work?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1183.490625999184,
+  "context_ids": [
+   94,
+   476,
+   28
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Can a provider avoid the high-risk obligations by documenting that its Annex III system is not risky?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1165.1191190012469,
+  "context_ids": [
+   341,
+   337,
+   601
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Can a provider avoid the high-risk obligations by documenting that its Annex III system is not risky?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1377.300246998857,
+  "context_ids": [
+   600,
+   601,
+   567
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||What fine does a deployer face for not complying with its obligations?": {
+  "answer": "A deployer faces an administrative fine of up to EUR 15,000,000 or, if the offender is an undertaking, up to 3% of its total worldwide annual turnover for the preceding financial year, whichever is higher. This applies to non-compliance with obligations such as those outlined in Article 26 regarding deployers of high-risk AI systems. [Article 99 – Penalties, para 4]",
+  "llm_ms": 7064.0144259996305,
+  "context_ids": [
+   635,
+   160,
+   403
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||What fine does a deployer face for not complying with its obligations?": {
+  "answer": "A deployer faces an administrative fine of up to EUR 15,000,000 or, if the offender is an undertaking, up to 3% of its total worldwide annual turnover for the preceding financial year, whichever is higher. This applies if the non-compliance relates to obligations under Article 26 regarding deployers of high-risk AI systems. [Article 99 – Penalties, para 4]",
+  "llm_ms": 6721.823845999097,
+  "context_ids": [
+   635,
+   403,
+   402
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is AI used to assess students' exams or admission considered high-risk?": {
+  "answer": "Yes, according to Context 1, AI systems intended to be used for evaluating learning outcomes, including when those outcomes are used to steer the learning process of natural persons in educational and vocational training institutions at all levels, as well as those intended to determine access or admission to such institutions, are classified as high-risk AI systems. This classification is supported by Context 2, which emphasizes that these systems may significantly impact a person's educational and professional future. [Context 1], [Context 2]",
+  "llm_ms": 7416.3108989996545,
+  "context_ids": [
+   690,
+   97,
+   105
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is AI used to assess students' exams or admission considered high-risk?": {
+  "answer": "Yes, according to the context provided, AI systems used for assessing learning outcomes, including when those outcomes are used to steer the learning process, determining access or admission, assigning persons to educational institutions, and monitoring prohibited behavior during tests are classified as high-risk AI systems. [Context 1, Context 2]",
+  "llm_ms": 5047.126256000411,
+  "context_ids": [
+   97,
+   690,
+   334
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Can AI be used to decide on asylum applications?": {
+  "answer": "Yes, AI can be used to assist in the examination of applications for asylum. However, this use is subject to certain conditions and must comply with relevant Union or national law. [Annex III]",
+  "llm_ms": 3301.602200999696,
+  "context_ids": [
+   696,
+   108,
+   695
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Can AI be used to decide on asylum applications?": {
+  "answer": "Yes, AI can be used to assist in the examination of applications for asylum. However, this use is subject to certain conditions and exceptions as detailed in the context provided. Specifically, such systems must be used by or on behalf of competent public authorities or Union institutions, bodies, offices, or agencies, and their use must comply with relevant Union or national law. [Recital 60, part 2/3; Annex III – High-risk AI systems referred to in Article 6(2), point 7, part 1/2]",
+  "llm_ms": 8486.09306599974,
+  "context_ids": [
+   109,
+   108,
+   695
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Which uses of AI by law enforcement for lie detection are high-risk?": {
+  "answer": "AI systems intended to be used by or on behalf of law enforcement authorities as polygraphs or similar tools are classified as high-risk. [Annex III – High-risk AI systems referred to in Article 6(2), point 6, part 1/2]",
+  "llm_ms": 4222.779677998915,
+  "context_ids": [
+   105,
+   693,
+   107
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Which uses of AI by law enforcement for lie detection are high-risk?": {
+  "answer": "AI systems intended to be used by or on behalf of law enforcement authorities for assessing the risk of a natural person to become a victim of criminal offences, as polygraphs and similar tools, fall under high-risk categorization. [Recital 59, part 3/4]",
+  "llm_ms": 4445.739230999607,
+  "context_ids": [
+   107,
+   106,
+   105
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Is facial recognition allowed for unlocking a phone or verifying identity?": {
+  "answer": "Facial recognition is allowed for unlocking a device or verifying identity. According to Context 1, this includes authentication systems whose sole purpose is to confirm that a specific natural person is who they claim to be and to confirm the identity of a natural person for the sole purpose of having access to a service, unlocking a device, or having secure access to premises.",
+  "llm_ms": 5416.292162999525,
+  "context_ids": [
+   22,
+   93,
+   74
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Is facial recognition allowed for unlocking a phone or verifying identity?": {
+  "answer": "Facial recognition is allowed for unlocking a phone or verifying identity. This excludes AI systems intended to be used for biometric verification, which includes authentication, whose sole purpose is to confirm that a specific natural person is the person he or she claims to be and to confirm the identity of a natural person for the sole purpose of having access to a service, unlocking a device or having security access to premises. [Recital 15]",
+  "llm_ms": 6407.7248699995835,
+  "context_ids": [
+   22,
+   25,
+   74
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Can police use biometric identification to find a missing child?": {
+  "answer": "Yes, according to Context 2, para (h), the use of 'real-time' remote biometric identification systems in publicly accessible spaces for law enforcement purposes can be allowed for the targeted search for specific victims of abduction or missing persons. This exception applies specifically to finding a missing child. [Article 5 – Prohibited AI practices]",
+  "llm_ms": 5194.906468001136,
+  "context_ids": [
+   408,
+   320,
+   322
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Can police use biometric identification to find a missing child?": {
+  "answer": "Yes, according to Context 2, the use of post-remote biometric identification systems for law enforcement purposes can include \"the search for certain victims of crime including missing persons.\" There are conditions attached, however; such use must be strictly necessary and in narrowly defined situations where it outweighs the risks.",
+  "llm_ms": 4738.011066001491,
+  "context_ids": [
+   408,
+   56,
+   322
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||Are AI systems used for detecting financial fraud classified as high-risk?": {
+  "answer": "AI systems used for detecting financial fraud are not considered high-risk under this Regulation, as they are specifically excluded from the high-risk classification in the context provided. [Context 2]",
+  "llm_ms": 3072.506260001319,
+  "context_ids": [
+   105,
+   102,
+   334
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||Are AI systems used for detecting financial fraud classified as high-risk?": {
+  "answer": "AI systems used for detecting financial fraud should not be considered high-risk under this Regulation. [Context 1]",
+  "llm_ms": 1959.7492949997104,
+  "context_ids": [
+   102,
+   692,
+   73
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||How long do providers have to keep logs automatically generated by a high-risk AI system?": {
+  "answer": "Providers of high-risk AI systems must keep the logs for at least six months. However, this period can be extended or shortened depending on applicable Union or national law, particularly in relation to data protection laws. [Article 19 – Automatically generated logs, para 1–2]",
+  "llm_ms": 4438.577054999769,
+  "context_ids": [
+   380,
+   358,
+   359
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||How long do providers have to keep logs automatically generated by a high-risk AI system?": {
+  "answer": "Providers are required to keep the logs for a period appropriate to the intended purpose of the high-risk AI system, which is at least six months. However, this can be extended or shortened depending on applicable Union or national law, particularly in Union law on the protection of personal data. [Article 19 – Automatically generated logs, para 1–2]",
+  "llm_ms": 5562.848395999026,
+  "context_ids": [
+   380,
+   405,
+   372
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "baseline||When will most of the AI Act's rules start to apply?": {
+  "answer": "Most of the EU Artificial Intelligence Act's rules will start to apply from 2 August 2026, as stated in Recital 179. However, prohibitions and certain provisions will already apply from 2 February 2025 due to unacceptable risks associated with AI use, according to the same recital. Codes of practice should be ready by 2 May 2025, and infrastructure related to governance and enforcement should be operational before 2 August 2026.",
+  "llm_ms": 7686.153966000347,
+  "context_ids": [
+   286,
+   667,
+   287
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "rerank||When will most of the AI Act's rules start to apply?": {
+  "answer": "Most of the AI Act's rules will start to apply from 2 August 2025. This includes prohibitions, provisions on notified bodies and governance structure, obligations for providers of general-purpose AI models, and codes of practice. [Recital 179] The full effect of those prohibitions follows with the establishment of the governance and enforcement of this Regulation, but anticipating their application is important to address unacceptable risks. [Recital 179]",
+  "llm_ms": 7040.639881999596,
+  "context_ids": [
+   286,
+   287,
+   667
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is it allowed to use AI to detect the emotions of employees at their workplace?": {
+  "answer": "The use of AI to infer emotions of natural persons in areas such as workplaces is generally prohibited unless intended for medical or safety reasons. [Article 5 – Prohibited AI practices, para 1, part 4/6] However, there are transparency obligations for deployers of emotion recognition systems, which must inform the individuals and process their data according to certain regulations. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 3]",
+  "llm_ms": 10648.327385000812,
+  "context_ids": [
+   319,
+   476,
+   689
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is it legal to build a face recognition database by scraping photos from the internet?": {
+  "answer": "It is not legal to build a face recognition database by scraping photos from the internet. This practice falls under the prohibited AI practices as stated in Article 5, para 1, part 4/6 of the EU Artificial Intelligence Act. [Article 5 – Prohibited AI practices, para 1, part 4/6]",
+  "llm_ms": 5166.7223920012475,
+  "context_ids": [
+   319,
+   476,
+   324
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Can an AI system be used to predict whether a person will commit a crime?": {
+  "answer": "An AI system cannot be used to make risk assessments of natural persons in order to assess or predict the risk of a natural person committing a criminal offence based solely on profiling or assessing their personality traits and characteristics. However, such systems can be used to support human assessment if it is already based on objective and verifiable facts directly linked to a criminal activity. [Article 5 – Prohibited AI practices, para 1, part 3/6]",
+  "llm_ms": 7155.882581999322,
+  "context_ids": [
+   318,
+   407,
+   408
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||When are police allowed to use real-time remote biometric identification in public spaces?": {
+  "answer": "Police are allowed to use real-time remote biometric identification systems in publicly accessible spaces for law enforcement purposes if they have completed a fundamental rights impact assessment, registered the system in the EU database according to Article 49, and obtained prior authorisation from a judicial authority or an independent administrative authority. However, in duly justified cases of urgency, such use may commence without registration provided that registration is completed without undue delay, and without an authorisation if one is requested within 24 hours. The use must also be notified to the relevant market surveillance authority and national data protection authority as per Article 5 para 4.",
+  "llm_ms": 8707.789121999667,
+  "context_ids": [
+   324,
+   327,
+   325
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Can real-time biometric identification be used before a judge or authority has approved it?": {
+  "answer": "Yes, under certain conditions. In a duly justified situation of urgency, the use can commence without an authorisation from a judicial authority or an independent administrative authority, provided that such authorization is requested without undue delay, at the latest within 24 hours. If the authorization is rejected, the use must be stopped immediately, and all data, results, and outputs must be discarded. [Article 5 – Prohibited AI practices, para 3, part 1/2]",
+  "llm_ms": 7120.373733998349,
+  "context_ids": [
+   326,
+   325,
+   324
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is every AI system listed in Annex III automatically considered high-risk?": {
+  "answer": "No, not every AI system listed in Annex III is automatically considered high-risk. An AI system can be excluded from being classified as high-risk if it does not pose a significant risk of harm to health, safety or fundamental rights and meets certain conditions, such as performing a narrow procedural task or improving the result of a previously completed human activity. However, an AI system that performs profiling of natural persons is always considered high-risk. [Article 6 – Classification rules for high-risk AI systems]",
+  "llm_ms": 7065.8246940001845,
+  "context_ids": [
+   333,
+   332,
+   334
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Do providers of open-source general-purpose AI models have to prepare technical documentation?": {
+  "answer": "Providers of general-purpose AI models are required to draw up and keep up-to-date the technical documentation, as stated in Context 1. This obligation applies regardless of whether the model is open-source or proprietary. The technical documentation should include a general description of the model, among other details, as specified in Context 2.",
+  "llm_ms": 4974.875208999947,
+  "context_ids": [
+   485,
+   738,
+   741
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Do deepfakes have to be labelled even when they are part of a satirical or artistic work?": {
+  "answer": "Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake do not need to label the content as artificially generated if it forms part of an evidently artistic, creative, satirical, fictional or analogous work. However, this labeling is limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work. [Article 50 – Transparency obligations for providers and deployers of certain AI systems]",
+  "llm_ms": 7660.692948998985,
+  "context_ids": [
+   477,
+   311,
+   316
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Does the AI Act apply to AI systems used only for military purposes?": {
+  "answer": "The AI Act does not apply to AI systems that are placed on the market, put into service, or used with or without modification exclusively for military, defence, or national security purposes. [Article 2 – Scope, para 3]",
+  "llm_ms": 3978.16934399998,
+  "context_ids": [
+   292,
+   368,
+   293
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Does a person using an AI system for a personal hobby have obligations under the AI Act?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1101.3311789993168,
+  "context_ids": [
+   474,
+   408,
+   478
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What is the maximum fine for a start-up that puts a prohibited AI system on the market?": {
+  "answer": "The maximum fine for a start-up that puts a prohibited AI system on the market is up to EUR 35 000 000, or 7 % of its total worldwide annual turnover for the preceding financial year, whichever is higher. This applies if the start-up does not comply with the prohibition of certain AI practices as defined in Article 5, such as those involving facial recognition or emotional inference without medical or safety reasons. [Article 99 – Penalties, para 3]",
+  "llm_ms": 7378.579454998544,
+  "context_ids": [
+   634,
+   319,
+   317
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What is the fine for giving misleading information to the authorities?": {
+  "answer": "The supply of incorrect, incomplete or misleading information to notified bodies or national competent authorities in reply to a request shall be subject to administrative fines of up to EUR 7 500 000 or, if the offender is an undertaking, up to 1 % of its total worldwide annual turnover for the preceding financial year, whichever is higher. [Article 99 – Penalties, para 5] This fine applies regardless of whether the entity providing the information is a small and medium-sized enterprise (SME) or not. [Article 99 – Penalties, para 6]",
+  "llm_ms": 8781.999333001295,
+  "context_ids": [
+   636,
+   644,
+   638
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What fines can be imposed on providers of general-purpose AI models?": {
+  "answer": "Fines not exceeding 3% of their annual total worldwide turnover in the preceding financial year or EUR 15,000,000, whichever is higher, can be imposed. This applies when the provider has intentionally or negligently infringed relevant provisions, failed to comply with requests for documents or information, or failed to make an AI model available for evaluation. The amount of the fine will also consider the nature, gravity, and duration of the infringement, as well as any commitments made in accordance with Article 93(3). [Article 101 – Fines for providers of general-purpose AI models]",
+  "llm_ms": 9432.227450999562,
+  "context_ids": [
+   644,
+   645,
+   646
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What are the obligations of a deployer, as opposed to a provider, of a high-risk AI system?": {
+  "answer": "Deployers of high-risk AI systems must take appropriate technical and organisational measures in line with instructions for use, assign human oversight to competent individuals, ensure relevant and representative input data, monitor the operation of the system, and inform providers or authorities if they identify risks or serious incidents. Public authorities deploying such systems also need to register them according to Article 49. These obligations do not cover sensitive operational data of deployers who are law enforcement authorities. The provided context does not specify this.",
+  "llm_ms": 7568.628395001724,
+  "context_ids": [
+   402,
+   403,
+   406
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||When is a distributor or deployer treated as the provider of a high-risk AI system?": {
+  "answer": "A distributor or deployer is treated as the provider of a high-risk AI system if they put their name or trademark on such a system already placed on the market or in service, make substantial modifications to it, or modify its intended purpose so that it becomes a high-risk AI system. This applies without prejudice to contractual arrangements allocating obligations differently. [Article 25 – Responsibilities along the AI value chain]",
+  "llm_ms": 6298.656837998351,
+  "context_ids": [
+   395,
+   396,
+   403
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What must an importer check before placing a high-risk AI system on the market?": {
+  "answer": "Before placing a high-risk AI system on the market, importers must ensure that the system is in conformity with this Regulation by verifying several aspects as outlined in Article 23. These include confirming that the relevant conformity assessment procedure has been carried out by the provider, the technical documentation is in accordance with Article 11 and Annex IV, the system bears the required CE marking and is accompanied by the EU declaration of conformity and instructions for use, and an authorised representative has been appointed in accordance with Article 22(1). [Article 23 – Obligations of importers, para 1]",
+  "llm_ms": 9067.333193001105,
+  "context_ids": [
+   389,
+   392,
+   390
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Which deployers must carry out a fundamental rights impact assessment?": {
+  "answer": "Deployers that are bodies governed by public law or private entities providing public services, and deployers of high-risk AI systems referred to in points 5 (b) and (c) of Annex III must carry out a fundamental rights impact assessment. This obligation applies prior to deploying a high-risk AI system, with the exception of those intended for use in the area listed in point 2 of Annex III. [Context 2]",
+  "llm_ms": 6573.458472999846,
+  "context_ids": [
+   413,
+   411,
+   414
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||How much training compute makes a general-purpose AI model count as having systemic risk?": {
+  "answer": "A general-purpose AI model shall be presumed to have high impact capabilities, and thus count as having systemic risk, when the cumulative amount of computation used for its training measured in floating point operations is greater than 10^25. [Article 51 – Classification of general-purpose AI models as general-purpose AI models with systemic risk, para 2]",
+  "llm_ms": 5632.614576999913,
+  "context_ids": [
+   480,
+   745,
+   746
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||From what date do the bans on unacceptable AI practices start to apply?": {
+  "answer": "The bans on unacceptable AI practices start to apply from 2 August 2026. This is supported by [Article 111 – AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked, para 2–3].",
+  "llm_ms": 4458.510300000853,
+  "context_ids": [
+   667,
+   321,
+   634
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Do people have to be told that they are chatting with a bot?": {
+  "answer": "Yes, people have to be informed that they are interacting with an AI system when using certain AI systems intended to interact directly with natural persons. However, this obligation does not apply if it is obvious from the context and the interaction. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 1]",
+  "llm_ms": 5153.447755999878,
+  "context_ids": [
+   474,
+   364,
+   316
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is an AI system used for credit scoring considered high-risk?": {
+  "answer": "Yes, an AI system intended to evaluate the creditworthiness of natural persons or establish their credit score is considered high-risk. However, this does not apply if the AI system is used for detecting financial fraud. [Context 1]",
+  "llm_ms": 4085.5011439998634,
+  "context_ids": [
+   692,
+   331,
+   333
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Does a person affected by a decision made with a high-risk AI system have a right to an explanation?": {
+  "answer": "Yes, a person affected by a decision made with a high-risk AI system has a right to an explanation. However, this right does not apply if the AI system is listed under point 2 of Annex III or if Union or national law provides exceptions or restrictions in compliance with Union law. Additionally, this Article only applies where the right referred to is not otherwise provided for under Union law. [Article 86 – Right to explanation of individual decision-making]",
+  "llm_ms": 7035.161330000847,
+  "context_ids": [
+   610,
+   332,
+   368
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||For how long must providers keep the technical documentation of a high-risk AI system?": {
+  "answer": "Providers must keep the technical documentation of a high-risk AI system for a period ending 10 years after the high-risk AI system has been placed on the market or put into service. [Article 18 – Documentation keeping, para 1]",
+  "llm_ms": 4064.2083839993575,
+  "context_ids": [
+   378,
+   380,
+   391
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What is the definition of an AI system?": {
+  "answer": "An AI system is defined as a machine-based system that is designed to operate with varying levels of autonomy and that may exhibit adaptiveness after deployment. It infers outputs such as predictions, content, recommendations, or decisions from input it receives, for explicit or implicit objectives, which can influence physical or virtual environments. [Article 3 – Definitions]",
+  "llm_ms": 5382.070060000842,
+  "context_ids": [
+   296,
+   697,
+   699
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Are SMEs and start-ups given lower fines under the AI Act?": {
+  "answer": "Yes, SMEs and start-ups are given lower fines under the AI Act. According to Article 99 para 5 of the context provided, the fines for SMEs, including start-ups, shall be up to the percentages or amount referred to in paragraphs 3, 4, and 5, whichever is lower.",
+  "llm_ms": 4830.457064999791,
+  "context_ids": [
+   636,
+   539,
+   670
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is it prohibited to use AI that exploits the vulnerabilities of children or elderly people?": {
+  "answer": "Yes, it is prohibited to use AI that exploits the vulnerabilities of natural persons due to their age. This includes children and elderly people [Article 5 – Prohibited AI practices, para 1, part 2/6].",
+  "llm_ms": 3520.469024000704,
+  "context_ids": [
+   317,
+   316,
+   319
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Can a company use biometric data to sort people by their race or sexual orientation?": {
+  "answer": "The company cannot use biometric categorisation systems that categorise individuals based on their biometric data to deduce or infer their race, political opinions, trade union membership, religious or philosophical beliefs, sex life, or sexual orientation. [Article 5 – Prohibited AI practices, para 1, part 5/6]",
+  "llm_ms": 5144.952979000664,
+  "context_ids": [
+   320,
+   303,
+   408
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is social scoring of citizens banned?": {
+  "answer": "Social scoring of citizens is not explicitly banned, but certain practices related to it are prohibited. According to [Article 5 – Prohibited AI practices, para 1, part 3/6], the use of AI systems for evaluating or classifying natural persons based on their social behaviour can be prohibited if such social scores lead to detrimental treatment that is unjustified or disproportionate. The exact conditions under which this prohibition applies are not fully specified in the given context.",
+  "llm_ms": 6826.014114998543,
+  "context_ids": [
+   317,
+   318,
+   321
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||How quickly must a provider report a serious incident that caused a person's death?": {
+  "answer": "The provider or deployer must provide the report immediately after establishing or suspecting a causal relationship between the high-risk AI system and the serious incident, but not later than 10 days from when they became aware of it. [Article 73 – Reporting of serious incidents, para 4]",
+  "llm_ms": 4809.784476999994,
+  "context_ids": [
+   569,
+   568,
+   570
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What is the deadline for reporting a serious incident?": {
+  "answer": "The provider of high-risk AI systems must report any serious incident immediately after establishing a causal link or reasonable likelihood thereof, but no later than 15 days from becoming aware of it. This period can be shortened to two days in cases of widespread infringement or a serious incident as defined in Article 3, point (49)(b). In the event of death due to a high-risk AI system, the report must be provided immediately after establishing or suspecting a causal relationship, but no later than 10 days from becoming aware of the incident. [Article 73 – Reporting of serious incidents, para 1–5]",
+  "llm_ms": 9496.967504001077,
+  "context_ids": [
+   568,
+   569,
+   571
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Does an employer have to inform workers before using a high-risk AI system in the workplace?": {
+  "answer": "Yes, employers who are deployers of high-risk AI systems must inform workers' representatives and affected workers about the use of the high-risk AI system. This information should be provided according to applicable Union and national laws and practices on informing workers and their representatives. [Article 26 – Obligations of deployers of high-risk AI systems, para 7]",
+  "llm_ms": 5532.851607000339,
+  "context_ids": [
+   405,
+   295,
+   365
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Can a high-risk AI system be used without completing the conformity assessment?": {
+  "answer": "Yes, under certain conditions. A specific high-risk AI system can be put into service without completing the conformity assessment procedure if there is an urgent situation involving public security or an imminent threat to life or physical safety of natural persons. However, authorization must be requested during or after use without undue delay, and the use should cease immediately if such authorization is refused. [Article 46 – Derogation from conformity assessment procedure]",
+  "llm_ms": 6350.321444999281,
+  "context_ids": [
+   464,
+   457,
+   454
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Do AI-generated news articles need to be disclosed if a human editor reviewed them?": {
+  "answer": "Yes, AI-generated news articles need to be disclosed if they have undergone a process of human review or editorial control and a natural or legal person holds editorial responsibility for the publication of the content. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 4, part 2/2]",
+  "llm_ms": 4999.160526998821,
+  "context_ids": [
+   478,
+   477,
+   475
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Must people be informed when an emotion recognition system is used on them?": {
+  "answer": "Yes, people must be informed when an emotion recognition system is used on them. This obligation does not apply if the system is used for detecting, preventing or investigating criminal offences under appropriate safeguards and in accordance with Union law. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 3]",
+  "llm_ms": 5496.902680000858,
+  "context_ids": [
+   476,
+   689,
+   304
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is an AI tool that screens job applications and filters CVs high-risk?": {
+  "answer": "Yes, according to Context 1, an AI tool that screens job applications and filters CVs is considered a high-risk AI system. This is because it falls under the category of AI systems intended for recruitment or selection of natural persons. [Context 1]",
+  "llm_ms": 4077.008995000142,
+  "context_ids": [
+   691,
+   364,
+   407
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Does the AI Act apply to AI being developed and tested before it is released?": {
+  "answer": "The AI Act does not apply to research, testing, or development activities regarding AI systems or AI models prior to their being placed on the market or put into service. Testing in real world conditions shall not be covered by that exclusion. [Context 2, para 8]",
+  "llm_ms": 4540.113889001077,
+  "context_ids": [
+   295,
+   294,
+   522
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What happens to high-risk AI systems already on the market before the rules apply?": {
+  "answer": "High-risk AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked will be subject to certain conditions. Specifically, operators of such systems must take necessary steps to comply with the requirements and obligations by 2 August 2030 if significant changes are made after that date [Article 111(2-3)]. The providers and deployers of these systems intended for use by public authorities should also ensure compliance by this deadline.",
+  "llm_ms": 7167.512005999015,
+  "context_ids": [
+   667,
+   334,
+   392
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Does the deepfake disclosure obligation apply when the content is used by law enforcement to investigate crimes?": {
+  "answer": "The deepfake disclosure obligation does not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences. [Article 50 – Transparency obligations for providers and deployers of certain AI systems, para 4, part 1/2]",
+  "llm_ms": 4056.5623359998426,
+  "context_ids": [
+   477,
+   478,
+   590
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Are there exceptions to the ban on emotion recognition at work?": {
+  "answer": "Yes, there are exceptions to the ban on emotion recognition at work. According to Context 1, such systems can be used for medical or safety reasons. Additionally, as per Context 2, emotion recognition systems must inform individuals of their operation and process personal data in compliance with relevant regulations, but this obligation does not apply if the system is lawfully used to detect, prevent, or investigate criminal offences, subject to appropriate safeguards.",
+  "llm_ms": 6247.346314001334,
+  "context_ids": [
+   319,
+   476,
+   689
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Can a provider avoid the high-risk obligations by documenting that its Annex III system is not risky?": {
+  "answer": "A provider can document an assessment to show their Annex III system is not high-risk, but they must still be subject to the registration obligation set out in Article 49(2) if requested. [Article 6 – Classification rules for high-risk AI systems, para 4–5]",
+  "llm_ms": 4792.818357000215,
+  "context_ids": [
+   334,
+   600,
+   601
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||What fine does a deployer face for not complying with its obligations?": {
+  "answer": "A deployer faces an administrative fine of up to EUR 15,000,000 or, if the offender is an undertaking, up to 3% of its total worldwide annual turnover for the preceding financial year, whichever is higher. This applies to non-compliance with obligations such as those related to registration and data protection impact assessments under Article 26. [Article 99 – Penalties, para 4]",
+  "llm_ms": 6662.354295000114,
+  "context_ids": [
+   635,
+   406,
+   403
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is AI used to assess students' exams or admission considered high-risk?": {
+  "answer": "Yes, AI systems used for assessing students' exams or admission are considered high-risk. This includes systems intended to evaluate learning outcomes and assign individuals to educational institutions as specified in [Context 1]. However, if the system is performing a preparatory task rather than directly influencing decision-making, it may not be considered high-risk under certain conditions as stated in [Context 2] and [Context 3].",
+  "llm_ms": 5806.526086000304,
+  "context_ids": [
+   690,
+   333,
+   332
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Can AI be used to decide on asylum applications?": {
+  "answer": "Yes, AI can be used to assist in the examination of applications for asylum. However, no action or decision should be taken based on the identification resulting from such systems unless separately verified and confirmed by at least two natural persons with the necessary competence, training, and authority, except where Union or national law deems this requirement disproportionate for certain purposes including migration, border control, or asylum. [Article 14 - Human oversight, para 5]",
+  "llm_ms": 6400.322147999759,
+  "context_ids": [
+   695,
+   368,
+   696
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Which uses of AI by law enforcement for lie detection are high-risk?": {
+  "answer": "AI systems intended to be used as polygraphs or similar tools by or on behalf of law enforcement authorities or by Union institutions, bodies, offices or agencies in support of law enforcement authorities fall under the category of high-risk AI systems for law enforcement. [Context 2]",
+  "llm_ms": 4273.4013959998265,
+  "context_ids": [
+   694,
+   693,
+   368
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Is facial recognition allowed for unlocking a phone or verifying identity?": {
+  "answer": "The provided context does not specify this.",
+  "llm_ms": 1048.3574980007688,
+  "context_ids": [
+   319,
+   303,
+   322
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Can police use biometric identification to find a missing child?": {
+  "answer": "Police can use biometric identification systems for finding a specific missing person, but such use must comply with certain conditions. Specifically, the system should not be used in an untargeted way without any link to a criminal offence or genuine and present or foreseeable threat of one [Article 26]. Additionally, decisions that produce adverse legal effects on individuals based solely on the output of these systems are prohibited [Article 26].",
+  "llm_ms": 6013.004645999899,
+  "context_ids": [
+   408,
+   322,
+   327
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||Are AI systems used for detecting financial fraud classified as high-risk?": {
+  "answer": "No, AI systems used for detecting financial fraud are not classified as high-risk. This is explicitly stated in Context 1 under point (b), which excludes such systems from being categorized as high-risk AI systems.",
+  "llm_ms": 3207.719525000357,
+  "context_ids": [
+   692,
+   291,
+   600
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||How long do providers have to keep logs automatically generated by a high-risk AI system?": {
+  "answer": "Providers are required to keep logs for a period appropriate to the intended purpose of the high-risk AI system, of at least six months. However, this can be extended or shortened depending on applicable Union or national law, particularly in relation to data protection laws. [Article 19 – Automatically generated logs, para 1–2]",
+  "llm_ms": 5110.910039998998,
+  "context_ids": [
+   380,
+   405,
+   358
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ },
+ "improved||When will most of the AI Act's rules start to apply?": {
+  "answer": "Most of the EU Artificial Intelligence Act's rules will start to apply by 2 August 2026. However, there are conditions and exceptions; for instance, high-risk AI systems already placed on the market or put into service before 2 August 2026 must only comply if they undergo significant design changes after that date. Compliance is generally required by 2 August 2030 for providers of general-purpose AI models placed on the market before 2 August 2025, and by 31 December 2030 for certain large-scale IT systems established by specific legal acts. [Article 111 - AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked], [Article 111 - AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked]",
+  "llm_ms": 12434.753245999673,
+  "context_ids": [
+   666,
+   667,
+   621
+  ],
+  "model": "qwen2.5:7b",
+  "system_prompt": "You answer questions about the EU Artificial Intelligence Act (Regulation (EU) 2024/1689) using ONLY the context excerpts given by the user. Do not use outside knowledge.\nAnswer in 1 to 4 complete sentences: first the direct answer to the question, then any condition, exception, deadline or amount from the excerpts that changes it. Cite the excerpts you used by their header in square brackets at the end of the sentence they support.\nIf the excerpts do not contain the answer, reply exactly: The provided context does not specify this."
+ }
+}
