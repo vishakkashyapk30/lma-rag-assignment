@@ -9,3 +9,5 @@ report/
 report_outline.md
 .vscode/
 report.pdf
+.env
+report_deb.pdf
