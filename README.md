@@ -15,7 +15,7 @@ LMA assignment. Two retrieval pipelines run over the same chunked document and a
 
 | Path | What it is |
 |---|---|
-| `rag_rerank.ipynb` | The whole assignment, executed with outputs saved |
+| `rag_baseline_vs_reranking.ipynb` | The whole assignment, executed with outputs saved |
 | `data/` | The source PDF and the chunked corpus (`chunks.jsonl`: 747 chunks, 289 recital, 387 article, 71 annex, with metadata) |
 | `results/retrieval_runs.csv` | For every query, all 10 candidates with bi-encoder and cross-encoder scores and ranks, plus a gold flag |
 | `results/rank_shifts.csv` | Best gold rank before and after re-ranking for every query |
@@ -87,7 +87,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m ipykernel install --user --name lma-rag
 ollama pull qwen2.5:7b
-jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=lma-rag rag_rerank.ipynb
+jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=lma-rag rag_baseline_vs_reranking.ipynb
 ```
 
 LLM answers are cached in `results/answers.json`, so a re-run only calls the LLM for prompts it has not seen. Set `FORCE_REGENERATE = True` in the config cell to regenerate everything. The bi-encoder and cross-encoder download from Hugging Face on first use.

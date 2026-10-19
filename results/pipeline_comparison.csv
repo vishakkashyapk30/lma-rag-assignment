@@ -1,4 +1,4 @@
 pipeline,hit@3,all@3,MRR@10,key-fact coverage,abstentions,retrieval ms (median)
-1 · bi-encoder Top 3,0.633,0.612,0.474,0.673,3,4.64
-2 · + cross-encoder re-rank,0.653,0.633,0.502,0.769,3,22.3
-"3 · binding text, hybrid, Top 30, L12",0.837,0.796,0.818,0.81,3,88.092
+1 · bi-encoder Top 3,0.633,0.612,0.474,0.673,3,4.47
+2 · + cross-encoder re-rank,0.653,0.633,0.502,0.769,3,21.48
+"3 · binding text, hybrid, Top 30, L12",0.837,0.796,0.818,0.81,3,87.422
