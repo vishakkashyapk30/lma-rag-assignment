@@ -1,0 +1,1872 @@
+{
+ "bfee27885b860a4d4fdaa5481075bb31f397f5e7": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not mention the specific prohibition on 'untargeted scraping' as required by the law text."
+ },
+ "8ffb02d56444707f187268160f73c34fd1b1a7b4": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that untargeted scraping to build facial recognition databases is prohibited and references the relevant legal provisions."
+ },
+ "b26b863b0c3723b08c4b43650412eef603c5d55c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and includes the exceptions for medical or safety reasons as required by the law text."
+ },
+ "cfe7f21e899ed190017d8b07dc0547440e45d66e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not specify that the prohibition applies to 'untargeted scraping' as required by the law text."
+ },
+ "eb5664ead4d6d5558179b9814c7865f573cd801b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the essential condition that only 'untargeted scraping' is prohibited, not all scraping."
+ },
+ "2207dff34e700ff81b0234249fbc920700a70b19": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that consent allows emotion detection at work, but the law only allows it for medical or safety reasons, not based on consent."
+ },
+ "2b0d1776e119d18fed6069ac80863a651f0ecd35": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and includes the exceptions for medical or safety reasons as required by the law text."
+ },
+ "873faf297d12e0a523d2d7ad9cce9c2af0ffce3f": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the general prohibition and the medical/safety exception, but adds an unsupported claim about transparency obligations for deployers of emotion recognition systems in the workplace, which is not mentioned in the provided law text."
+ },
+ "0983c597ce99f7dc5757b8b843f0e69ca206ed0c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception for supporting human assessment based on objective and verifiable facts."
+ },
+ "2b95cc5a71e808b94ebb45c6e164f82da24f2ae2": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception regarding AI use for predicting crime based on profiling or personality traits."
+ },
+ "badcac1fad2a746c6811e666065e963ec9f46b62": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception regarding AI use for predicting criminal offences based on profiling or personality traits."
+ },
+ "3c59c582e50bcc4a6a8ac5190663c3a9d9480fd4": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer does not state that using AI to predict if a person will commit a crime based solely on profiling or personality traits is prohibited, except for supporting human assessment based on objective, verifiable facts."
+ },
+ "73a6df287be1e749d5df6f5c21dd13542534d7bb": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific exceptions (victims, terrorism, imminent threat) required by the law and does not mention that only these narrowly defined objectives allow use."
+ },
+ "95fc1ba7af7781c0febacfef083f21a9af35a01f": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific, limited objectives (victims, terrorism, imminent threats) under which police may use real-time remote biometric identification in public spaces."
+ },
+ "061f67f912dcf8527e6ba3119ecea9f3d169a802": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the strict necessity condition and the specific objectives (victims, terrorism, imminent threat) under which police may use real-time remote biometric identification in public spaces."
+ },
+ "fb96d1d5b6279eb2d51aae380124cba2a58e5875": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific objectives (victims, terrorism, imminent threat) under which police use is allowed and focuses only on procedural requirements."
+ },
+ "10d60dac56c292d34a8ee925966b27cafca00b8f": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing use in urgent situations for up to 24 hours before authorisation is required."
+ },
+ "564f34648303ba4d65b11bbc9df71c71c58f46b3": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing use in urgent situations for up to 24 hours before authorisation is obtained."
+ },
+ "f4b26c0e65d8066baaf8a896f4cf05b321a64121": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing use in urgent situations for up to 24 hours before authorisation is obtained."
+ },
+ "dc1df99b7d185b5fe5f70b74cb47ae012d2b3005": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule, including the urgency exception, 24-hour requirement, and the obligation to stop and delete data if authorisation is rejected."
+ },
+ "40431e4c42d9fbfbe74d9d180c877458883a7197": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer cites Article 7 about amending Annex III, but the question is about exceptions in Article 6; it fails to mention the significant risk and profiling exceptions that determine if an Annex III system is high-risk."
+ },
+ "2e276e6ac89d5c190982c407d524fa611dbb14cc": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exceptions for profiling and the specific conditions under which Annex III systems are not considered high-risk."
+ },
+ "dfa013117fbc93ceae5c360cdddcc18cdc9c2beb": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that not all Annex III AI systems are automatically high-risk, includes the significant risk condition, the exceptions, and the profiling rule."
+ },
+ "32c1637c6cb078688092ed83addeabdb13ae792e": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer ignores the exception for open-source models and incorrectly states that all providers must prepare technical documentation, omitting the exemption unless the model poses systemic risks."
+ },
+ "b8185997c3628468a62b62f8e60011b811a1176d": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer ignores the exception for open-source models without systemic risk and incorrectly states the obligation applies regardless of open-source status."
+ },
+ "c009097d18f89752b4a41ee7eed00b0b209f75c6": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the key legal exception that open-source providers are exempt from technical documentation requirements only if their models are not considered to have systemic risks."
+ },
+ "483ff5b2e2db8990ebbcd2244ba75e64a8552c76": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer ignores the exception for open-source models without systemic risk and incorrectly states the obligation applies regardless of open-source status."
+ },
+ "3d7edf76ce06ad5d4d24cbeaa2ebaa8ffb765f94": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly notes that the transparency obligation is limited for artistic or satirical works, but it incorrectly introduces 'appropriate safeguards for the rights and freedoms of third parties,' which is not in the law text, and does not clearly state that disclosure is still required, just in a way that does not hamper enjoyment."
+ },
+ "e5a293beb135d7a771aa9d6406053a6b5d4262a0": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly claims that deepfakes in artistic or satirical works might not require labeling, but the law requires disclosure of the existence of such content in an appropriate manner even for artistic or satirical works."
+ },
+ "4e68df00f6da78c18e2f4a930377ee4091df9e1b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule and includes the relevant exceptions for military, defence, and national security purposes."
+ },
+ "991789466663352d37765877109d31d11330441b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that even for artistic or satirical works, there is still a requirement to disclose the existence of generated or manipulated content in an appropriate manner, not a full exemption."
+ },
+ "66241d8a74259db179351ded55739da4e1568b17": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly says no labeling is needed, but the law requires disclosure of the existence of generated or manipulated content even for artistic or satirical works, just in a way that does not hamper enjoyment."
+ },
+ "d520ee0218e8c79a7cc5b716b3556a2d88886ed0": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that AI systems used exclusively for military purposes are not covered, but it omits that the exclusion also applies to defence and national security purposes, and does not mention the 'exclusively' condition clearly enough."
+ },
+ "043cb9888c285c2229113f4210ff4c5686460e06": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that not every Annex III AI system is automatically high-risk, but it omits the key exceptions: systems that do not pose a significant risk or that fall under the listed conditions, and it does not mention the profiling exception."
+ },
+ "1455bfd596c957332006ecac36119dd59bc0c63e": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule and includes the required conditions and exceptions from the law text."
+ },
+ "2b84adfe92aea7fdf022bf6d2307ce5f915aea18": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text clearly states that the Regulation does not apply to obligations of deployers who are natural persons using AI systems in the course of a purely personal non-professional activity."
+ },
+ "a4db2cfacbb659e660145569849b5cf5ff52a6ec": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that personal hobby use is generally exempt but fails to explicitly mention the law's condition that the exemption applies only to 'purely personal non-professional activity'."
+ },
+ "1fe850c4e08c71db3e7cccaa016382ed6073f11f": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text clearly specifies the maximum fine for start-ups and the answer incorrectly claims the information is not provided."
+ },
+ "6a7eed4e6d5524e1ae367b6421863e909b4fd5a4": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer gives incorrect fine amounts and percentages, and fails to mention that for start-ups the lower of the two (amount or percentage) applies."
+ },
+ "410206b3445efc94d91125a5f9a2aa67419ce4bf": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer fails to apply Article 99(6), which states that for start-ups the maximum fine is the lower of EUR 35,000,000 or 7% of turnover, not the higher."
+ },
+ "2ab437947d3930c420d73abbbe27a32c386e92cc": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer fails to note that for start-ups, the maximum fine is the lower (not higher) of EUR 35,000,000 or 7% of turnover, per Article 99(6)."
+ },
+ "7212ab392d5364f0014005425d29d0f9877af850": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule, including both the monetary amount and the percentage, and specifies the condition of 'whichever is higher'."
+ },
+ "da08fbb0ec69cd5e11eb3fcb0fca31a043f203e9": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly refers to the GDPR and its fines, while the AI Act specifies fines of up to EUR 7,500,000 or 1% of worldwide turnover for misleading information."
+ },
+ "c7c9512c601a9f5ceb4dc843ed7ee9a9257c4f4d": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that for SMEs, the fine is whichever is lower, not higher, between the percentage and the amount."
+ },
+ "96879ce6e8d2c90440988b88b2b7687c8b9bbde9": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states the fine as 6% instead of the correct 3% or EUR 15,000,000, whichever is higher."
+ },
+ "155ddd0f996f7e43bbfae6409cda32e20dad774c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the maximum fines, the conditions under which they apply, and the factors considered in determining the fine, as specified in the law text."
+ },
+ "d42a667b5ff40c02085cf441cdf5a8371c25eeec": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the maximum fines, the conditions under which they apply, and the relevant considerations for determining the fine, matching the law text."
+ },
+ "5fb9a3fcb2310845326721c0196458b0e5a83b8b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the maximum fines, the conditions under which they apply, and the factors considered in determining the amount, as specified in the law text."
+ },
+ "d0dd32de3a0799a9b2ecebe91da07a008fdbf391": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the obligation to keep logs for at least six months and to inform workers before use in the workplace, both of which are required by Article 26."
+ },
+ "0df0f5b71cbd926a68ccb6852ed5447b0655e783": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer mentions substantial modification but omits the rule about putting their name or trademark on the system and does not specify modifying the intended purpose, both of which are essential conditions in the law text."
+ },
+ "94d6c47279dcfa89020863883968fa009658e0ee": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits key obligations such as monitoring the system, informing authorities of risks or incidents, keeping logs, and informing workers when used in the workplace."
+ },
+ "a17fd357f6bc6e837aaf2331ad75f88a94c55c1b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states all relevant circumstances under which a distributor or deployer is treated as a provider, including name/trademark, substantial modification, and modification of intended purpose."
+ },
+ "5bbc5147dd95467e46e5e466762b989915269c6a": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer confuses deployer obligations with those of providers, omitting key deployer duties such as following instructions for use and assigning human oversight."
+ },
+ "b41a00be926da0efb13971e8b640912be17643d5": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the rule, including all relevant conditions and exceptions from the law text."
+ },
+ "13210bae7b83cd86baac73670cf3f72914d3b35b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states all relevant circumstances under which a distributor or deployer is treated as a provider, including name/trademark, substantial modification, and change of intended purpose leading to high-risk classification."
+ },
+ "9cac331dcd00b0d0c586f1ef82317784e67cfe5f": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that the importer must ensure the system is not in conformity, whereas the law requires the importer to verify conformity and specific documentation before placing the system on the market."
+ },
+ "46b1ade02a3eb5bce67413ae79cc63e07f493351": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the obligation to keep logs for at least six months and to inform workers and their representatives before use in the workplace, and does not mention the condition regarding input data under deployer control."
+ },
+ "19d8c64542835c63563aba9725039aefd371eba2": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the requirement to verify that the provider has appointed an authorised representative and that the system bears the CE marking; it also incorrectly adds a requirement for a post-market surveillance plan."
+ },
+ "fde526bb8c98feba042352b1bfb464f4a738625d": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely lists all the required checks importers must make before placing a high-risk AI system on the market, including conformity assessment and authorised representative."
+ },
+ "0c432fe584d0929af38c8afb92b5d2457fde1a13": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly adds 'if applicable' to the requirement for an authorised representative, whereas the law requires this without such a condition."
+ },
+ "3ec050acea2a9b29b76e30fd6b6e1264d6916ae5": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that only deployers that are bodies governed by public law, private entities providing public services, and certain deployers under Annex III points 5(b) and (c) are required to carry out the assessment, not all deployers of high-risk AI systems."
+ },
+ "715ddba0c4b229c14d86d6509a362e5e75a10423": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that deployers of high-risk AI systems referred to in points 5(b) and (c) of Annex III must also carry out the assessment, and it adds examples not specified in the law text."
+ },
+ "4e8f9a4b416bd506773540b5376d915dd7779b6e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the requirement applies only to high-risk AI systems referred to in Article 6(2), with exceptions, and does not mention the specific exception for systems in point 2 of Annex III or the inclusion of deployers of systems in points 5(b) and (c) of Annex III."
+ },
+ "24b9059b62e297febe53e1f4d2f6186b4b4eb907": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states which deployers must carry out a fundamental rights impact assessment and includes the relevant exception."
+ },
+ "8a23bb215fad2161fdf2a20ea0e57514b7ddf413": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the threshold of 10^25 floating point operations for presumption of systemic risk, as required by the law."
+ },
+ "3ee4b3e8c478881020ba16a040a6f7fb17220c63": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law explicitly presumes systemic risk for models trained with more than 10^25 floating point operations, which the answer denies."
+ },
+ "1d7605d724ba0740d26d5156f75deceebc6dcb5f": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The bans on unacceptable AI practices (Chapter II) start to apply from 2 February 2025, not 2 August 2026."
+ },
+ "31fa5155647e286b0b0294d51d3f817208ccb1d3": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception that disclosure is not required if it is obvious to a reasonably well-informed, observant, and circumspect person."
+ },
+ "4bc4be2a0844c875facaa0087790d1c9b30fbb5d": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The correct date for the bans on unacceptable AI practices is 2 February 2025, not April 2024."
+ },
+ "7aebfc896763c428038f6fdb58065bd3e4ab51d0": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule and includes the exception for when it is obvious to a reasonably well-informed person."
+ },
+ "3d852529c501932969e3e13675431eaa12b7a18f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that the bans on unacceptable AI practices apply from 2 February 2025, as per Article 113(a) (Chapters I and II, which include the bans, apply from that date)."
+ },
+ "ab46bf975c7d096f7e94c465245455e93b782d66": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule and the exception regarding when people must be informed they are interacting with an AI system."
+ },
+ "76183dc96898105e5c6e74cb4fe561c4c3899ac6": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that the bans on unacceptable AI practices apply from 2 February 2025, matching Article 113(a) which covers Chapters I and II."
+ },
+ "f247d0fe4777c682600a799f82a356f09362eb97": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule and the exception regarding when people must be informed they are interacting with an AI system."
+ },
+ "2488956a16420fbbb089d58e98df69d086549d8e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception for AI systems used for detecting financial fraud, which are not considered high-risk under this provision."
+ },
+ "b7d0bf8afb77125caa56bbedc6d57a17ca5e7def": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems for credit scoring are high-risk, except when used for detecting financial fraud, matching the law text."
+ },
+ "7f653dc5c24f38346c1562261366e48aa1fff2e4": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems for credit scoring are high-risk, except when used for detecting financial fraud, matching the law text."
+ },
+ "92e264a39136843f8d08b0aa33368592f751fd7f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems for credit scoring are high-risk except when used for detecting financial fraud, matching the law text."
+ },
+ "d71c16e3e56e8cfa2b794852ddf1d59dc7f593f6": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits key exceptions: it does not mention that the right applies only to certain high-risk AI systems (excluding Annex III point 2), is subject to Union/national law exceptions, and only applies if not otherwise provided for under Union law."
+ },
+ "482e3e98d0f2f8495d499d05a4ae70f976f67efe": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the right to explanation, the conditions for its application, and the exceptions as set out in Article 86."
+ },
+ "6717bdd939eb14ce2489dc172335c052c10f8726": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the right only applies to high-risk AI systems listed in Annex III (excluding point 2), and only if the decision has legal or similarly significant adverse effects, and only if not otherwise provided for under Union law."
+ },
+ "f8851c927a0e9a923c3d51c55216ab2198e22db0": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule, including the exceptions for Annex III point 2 systems, legal exceptions, and the condition regarding existing Union law."
+ },
+ "7dcb9325e296cc92649d2780510ffd1ab780d41b": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law requires providers to keep the technical documentation for 10 years after the AI system is placed on the market or put into service, not just for the system's lifetime."
+ },
+ "2f414b4bcad5a2252d3bdee098bd85f42c7b342a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that providers must keep the technical documentation for 10 years after the system is placed on the market or put into service."
+ },
+ "3c4dc04aed14de3afe62f986b22afd7b61a9ab59": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the 10-year requirement and the relevant triggering event, matching the law text."
+ },
+ "cc91bf2c8a66d4c1117b6e2feb73b2a8c34751a5": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer does not accurately reflect the law's definition, omits 'machine-based', 'autonomy', and 'infers from input to generate outputs', and adds unsupported details about techniques and human-like intelligence."
+ },
+ "83878a323899d991ad67a7ae809e94bc52506cf0": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the definition of an AI system as provided in the law text, including all essential elements and conditions."
+ },
+ "b1c93e043d8a12cb058311dc3b2ae3f04a257830": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the definition of an AI system as provided in the law text, including all essential elements."
+ },
+ "435e8980a733d3b8b83c397d2e9b79e9183be347": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the definition of an AI system as provided in the law text, including all essential elements and conditions."
+ },
+ "174773b8226d43b98a25c216fa64f2b43c37aa4c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that SMEs and start-ups are subject to lower fines, as specified in Article 99(6), and cites the relevant rule."
+ },
+ "3d094a2fd49ab903cb2b93105e5ff23f7c62f79b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that SMEs and start-ups may face lower fines, but it omits the specific rule that for SMEs and start-ups, the lower of the percentage or the fixed amount applies, which is a key detail in Article 99(6)."
+ },
+ "afd2f08b475d6e2f41ae598e0bc1ecfbcc92067e": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that SMEs and start-ups are subject to the lower of the percentage or amount for fines, as specified in Article 99(6)."
+ },
+ "d2a8187cccb71ba1d6c4d996c0e39690e8e877bc": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that SMEs and start-ups are subject to the lower of the percentage or amount for fines, as specified in Article 99(6)."
+ },
+ "ed7bfaf9e0366bc5ee7be30ab2a35c862db59aa0": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the prohibition but adds an exception for medical or safety reasons that is not present in the provided law text."
+ },
+ "70d65e4cf7578340ac582a5d2381d1744e6f32d2": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the condition that the exploitation must have the objective or effect of materially distorting behaviour in a way that causes or is likely to cause significant harm."
+ },
+ "676dac1899cb93e7387a2168eeef7b7bd8d34c82": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that exploiting vulnerabilities due to age is prohibited if it causes or is likely to cause significant harm, matching the law text."
+ },
+ "3d37956f1046c3ec9e6ce0737757125cdeb30cd8": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the condition that the exploitation must have the objective or effect of materially distorting behaviour in a manner likely to cause significant harm."
+ },
+ "bcde77c2e8a67b453f734cdde135badf212f6d61": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the prohibition but omits the exceptions for law enforcement and lawful dataset labelling/filtering."
+ },
+ "3f17b020089f938523227b2e79811bb67c555a8a": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the prohibition but omits the exception for labelling or filtering of lawfully acquired biometric datasets and does not mention the law enforcement exception for categorizing biometric data."
+ },
+ "ba0c09f96de247600009a3034837eb0f4ec8926e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exceptions for labelling/filtering of lawfully acquired datasets and law enforcement use, which are specified in the law text."
+ },
+ "4ca091ac906355430757cd7220ae998af18db2f8": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law requires documentation to be kept for 10 years after the system is placed on the market or put into service, not after provision ends or use stops."
+ },
+ "04bf262f7bec8d3fbbaf451c45d6323a717f6fc8": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the exception for labelling/filtering applies only to lawfully acquired datasets and does not mention that categorizing by race or sexual orientation is still prohibited except for specific law enforcement purposes."
+ },
+ "6c41978675d0be19d02a6fd99656f6aa135ecd90": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that social scoring is banned under certain conditions, specifically when it leads to detrimental or unfavourable treatment, and notes the exception for lawful evaluation practices."
+ },
+ "01fd3bd23b91a93902eb0c6752e71bb225fc5c8c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that social scoring is prohibited when it leads to detrimental or unfavourable treatment, and notes the exception for lawful evaluation practices."
+ },
+ "4483901f4281e8ebfd7a51fd6e54236205b553f7": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly notes that social scoring is prohibited under certain conditions but omits that the law also covers unfavourable treatment and does not mention the requirement that the treatment must be unjustified or disproportionate to be banned."
+ },
+ "559ea9beb410831e7f79931d76636362e66d72ed": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule, including the 10-day deadline and the requirement to report immediately after establishing or suspecting a causal relationship."
+ },
+ "63ed8cebc6af18de761387e326b4880e2e90e5cf": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law text explicitly prohibits AI systems for social scoring that result in detrimental or unfavourable treatment, not just regulates them as high-risk."
+ },
+ "b288515a8ed817f93b6760fd17e0a758f608c31f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule, including the 10-day deadline and the requirement to report immediately after establishing or suspecting a causal relationship."
+ },
+ "7f3f5f124747f4fc5ecb192bfeeafcdb059daa18": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule, including the 10-day deadline and the condition of establishing or suspecting a causal relationship."
+ },
+ "d849f3dea20fa4679ea70a026e5c2ce835ac13bb": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states a 24-hour deadline, while the law sets a 15-day deadline (or 2 days for widespread incidents)."
+ },
+ "b81129321df839cbeba73cf456f91ea7e7da29da": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the 15-day deadline and the 2-day exception for widespread infringements or certain serious incidents, as required by Article 73."
+ },
+ "be5a6c8134a25c3025c9a735414b505158f67a0e": {
+  "grade": "partial",
+  "error_type": "made up",
+  "reason": "The answer invents a 10-day deadline for death cases, which is not in the provided law text."
+ },
+ "a96a55bec354e3c54d4cdf168ec6ea2eb6134b62": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform both workers and their representatives, and notes the requirement to follow relevant laws and practices."
+ },
+ "d317bd8354cf0a44ba763c4221f2d5c2d85b0e16": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that employers must inform workers, but it omits the requirement to also inform workers\u2019 representatives and does not mention that the information must be provided according to relevant rules and procedures."
+ },
+ "713d85e8d7e8ec7bd28d0ecf87002f2aa5b4dfbe": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule, including the requirement to inform both workers and their representatives, and notes the condition regarding applicable laws and practices."
+ },
+ "60156dd7f42716cd77d8e9c81bacb7ccb0501605": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform both workers and their representatives, and notes the requirement to follow applicable laws and practices."
+ },
+ "8ad48c7fc01f633f3e8b1e14f350be9ea1f9b1ff": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception that allows use without conformity assessment for exceptional reasons such as public security, as specified in Article 46."
+ },
+ "4eed8095047f2452d7cae6a6b08dfc7648101cc3": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the 15-day deadline and the 2-day exception for widespread infringements or certain serious incidents, as required by Article 73."
+ },
+ "6404498fa032a1ec5fb3d977898cb0a591a83a78": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states a 24-hour deadline, while the law specifies reporting must be done immediately but not later than 10 days after awareness of the incident."
+ },
+ "aaed8ce2f2fe79490cd588fa52fd52701ad14038": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the derogation can also be for environmental protection or protection of key industrial and infrastructural assets, and incorrectly states that authorization can be requested during or after use, whereas the law requires a duly justified request and authorization before use."
+ },
+ "bfeb6f89bbaee11a4cf7b49a859232f6bd7fb7e5": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the key exception that, for exceptional reasons such as public security, a high-risk AI system can be temporarily authorised without completing the conformity assessment."
+ },
+ "f748e5436c8c3e8fbb23e18314b5e469467dbef7": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception that allows use without conformity assessment for exceptional reasons such as public security, as stated in Article 46."
+ },
+ "20b4df75e08b31fd48af75e25795ac1006bc03e6": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law provides an exception for AI-generated content that has undergone human editorial control with editorial responsibility, which the answer ignores."
+ },
+ "c8cd4ce260fb7d09d186460be37734189da9d370": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception for editorial review and responsibility as required by the law text."
+ },
+ "e34b4f4fbe6de3c05e0bf38bca267a5bd9f68bed": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law states that disclosure is NOT required if there is human review/editorial control and editorial responsibility; the answer incorrectly says disclosure is required in this case."
+ },
+ "bc4c94b5cf230a394e45a3891ba25d363265e12c": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law states that disclosure is NOT required if there is human review/editorial control and editorial responsibility; the answer incorrectly says disclosure is required in this case."
+ },
+ "1438becbaa9dcf2e51070ae0b9c7ae79997bb907": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform and includes the exception for criminal offence investigations."
+ },
+ "5b3fa4ab9894ac36296a8107c7081f7741ff435f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that AI tools used for screening job applications and filtering CVs are considered high-risk under the relevant clause."
+ },
+ "6678aa91a56b0cb9146f8e0b9825d5ce0ad2b657": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform and includes the exception for criminal offence contexts with safeguards and Union law compliance."
+ },
+ "0994de971910c1517e89c5800f5507353841439b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI tools used for screening job applications and filtering CVs are high-risk under the relevant clause."
+ },
+ "2f6467e3f4199317643608228ef88d6d1a97e347": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that people must be informed, but it omits the exception for law enforcement uses permitted by law."
+ },
+ "ea86e6f03626155b74b5dd2b285fe27059d74a26": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform and includes the exception for law enforcement use with safeguards."
+ },
+ "a353337d87b57f8a7c7ba6f3c212ef77028e5c13": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the Act does not apply to research, testing, or development activities prior to market placement, except for testing in real world conditions, which is covered by the Act."
+ },
+ "14f20881ee6c43c5f1b7f2738900786ffb5f740b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI tools used for screening job applications and filtering CVs are high-risk under the recruitment category in the law text."
+ },
+ "9cbcd0a4316aba2f059ce7cb29f8531b3f6932c0": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the AI Act does not apply to research, testing, or development activities prior to market placement, except for testing in real world conditions, which is covered by the Act."
+ },
+ "14d7606b9342fb78ea0eb9287df1831811745b1c": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that only systems subject to significant changes in design after the rules apply must comply, and that systems used by public authorities must comply by 2 August 2030 regardless."
+ },
+ "b2c537eea7117f9021cd1cc58c49bf8de8e70c39": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states that all high-risk AI systems must comply by 2 August 2030, but the law only requires this for systems used by public authorities; for others, compliance is required only if there are significant design changes after 2 August 2026."
+ },
+ "3b404e35f92337d415967bcbe9c0a5510e7141a1": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that the Act does not generally apply to research, testing, or development before market placement, but it omits the explicit exclusion for pre-market activities and does not clearly state that real-world testing is not covered by the exclusion."
+ },
+ "59f47f294b46d1801f3f813448f481ba9b070123": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule and the exception for real world testing as required by the law text."
+ },
+ "549f53f500ddbf13ba6c754bcef7075b6ad6ebf9": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that for high-risk AI systems not intended for public authorities, the regulation only applies after 2 August 2026 if significant changes are made, but for public authority use, compliance is required by 2 August 2030 regardless of changes."
+ },
+ "2ab32b8c82e125a4ee6c93a62d02ac06d08bb2ce": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception for law enforcement use as authorised by law, matching the law text."
+ },
+ "83d11bfda292fdfc06b6c8281d8ff783f0a73433": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law explicitly exempts law enforcement use for investigating crimes from the deepfake disclosure obligation if authorised by law, which the answer fails to state."
+ },
+ "be3bdf8de5697d5c8a234acc77c68d3e07bc9a21": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception for law enforcement use as authorised by law, matching the law text."
+ },
+ "2ececf477c1cb5ef7c33b27a101763cc65da524a": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer omits the specific exceptions of medical or safety reasons and incorrectly adds conditions like data protection and consent, which are not stated in the law text."
+ },
+ "eb892c9d57d5505694ab9aead25e92d9734658af": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that the Regulation applies to high-risk AI systems already on the market only if they undergo significant changes after 2 August 2026, and notes the 2030 compliance deadline for public authority use."
+ },
+ "71d90dfa4ac99bea14437fd436be27b5a51f4855": {
+  "grade": "partial",
+  "error_type": "made up",
+  "reason": "The answer correctly states the medical and safety exceptions but invents additional exceptions about informing individuals and criminal offences that are not present in the provided law text."
+ },
+ "bd95643db2153c527ecdb478905c4fdf9c5e2695": {
+  "grade": "wrong",
+  "error_type": "omits an essential clause",
+  "reason": "The answer fails to mention the explicit exceptions for medical or safety reasons stated in the law text."
+ },
+ "054f9ab89e2e50012979859915f59eddab9ae8f9": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text clearly states exceptions for medical or safety reasons, which the answer ignores."
+ },
+ "84bc034a270caadbcf76c89112cfa5e165c09e98": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text clearly states that a provider can avoid high-risk obligations by documenting that the Annex III system does not pose significant risk, under certain conditions."
+ },
+ "f157162df7912d11095145d1ee829b8b4b689ad3": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that providers can avoid high-risk obligations if their Annex III system meets specific conditions and they document the assessment, as outlined in Article 6(3)-(4)."
+ },
+ "06841e5985b4424bcf3119ff4df75863b75720f9": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fine amounts and conditions as specified in Article 99(4) for deployers."
+ },
+ "fba12efa056c2c33384c6f0f711177f731968d71": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the provider can only avoid high-risk obligations if the system does not pose a significant risk and meets specific conditions listed in Article 6(3); documentation alone is not sufficient."
+ },
+ "255c44e58021330292c4a43d385df02e407898f9": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fine amounts and the condition of whichever is higher, matching the law text."
+ },
+ "64e28015a67cc88b48ab68cabb5c0f8d80f0b376": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law specifies fines of up to EUR 15,000,000 or 3% of worldwide annual turnover, which the answer omits and incorrectly claims are not specified."
+ },
+ "2a8dbb3b5e8d3299863d9022eaa9a715e751b63f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states that AI used for admission and assessment of learning outcomes is classified as high-risk under the law."
+ },
+ "d2736e01908d3d49954888645b87d59635327b36": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly identifies that AI used for admissions and exam assessment is high-risk but omits that all such uses in educational institutions are high-risk under Annex III, not only those that 'significantly affect rights and freedoms.'"
+ },
+ "a82d2fd0446b8655dd1e4ffbae75806b04901e42": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fine amounts, the condition for undertakings, and specifies the relevant article for deployers."
+ },
+ "78c374f1750f7733a34a5eb8e1e0aa6fca2d7687": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law text explicitly addresses AI use in assisting examination of asylum applications as high-risk, not just general principles."
+ },
+ "7ebd1f4c22ce84f08e0874dbe055c004cd0a8773": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI used for admission or evaluating learning outcomes in education is classified as high-risk, as specified in the law text."
+ },
+ "79ba10ca641c15cc9b7f296e163fc2257a6d54eb": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI can be used to assist in asylum application examination, subject to compliance with relevant laws, as required by the law text."
+ },
+ "bb30b8782ce41682e427970f85264844c8a4fcef": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that AI used for admission and evaluating learning outcomes is high-risk, but it introduces an unsupported exception about 'preparatory tasks' not found in the law text."
+ },
+ "12df6d207b34a1d5eaf871d35a78dcdadda07e7f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI can be used to assist in asylum application examination, but only by competent authorities and in compliance with relevant laws, as required by the law text."
+ },
+ "4d7db11f19968cf864fd4cce82ea2c696e1e8e1c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems used as polygraphs or similar tools by law enforcement are classified as high-risk, matching the law text."
+ },
+ "4cdb4fd33f41e472b2564c5eacd6f744eebd09de": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not specify that AI systems used as polygraphs or similar tools by law enforcement are explicitly listed as high-risk in the law text."
+ },
+ "702ca49f46f19238918270ca3fac9ddc998216bf": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly includes polygraphs and similar tools but incorrectly adds 'assessing the risk of a natural person to become a victim of criminal offences,' which is not about lie detection."
+ },
+ "64dad4000cac7b25436f63ebf3f43f8a6ed222ec": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that AI can assist in asylum application examination and mentions human oversight, but it does not specify that such use is only allowed insofar as it is permitted under relevant Union or national law, which is a key condition in the law text."
+ },
+ "1382d3c2cabb1ff310476f053f574614d05e5eef": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems used as polygraphs or similar tools by law enforcement are high-risk, as specified in the law text."
+ },
+ "9d8658a6406997946e1814842eb863a881e0179e": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law text explicitly excludes biometric verification systems used solely to confirm identity from the high-risk category; the answer incorrectly states they are generally considered high-risk."
+ },
+ "727dd4decebaadbb49b7d7e7b9fae1f62040163e": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that facial recognition for verification (such as unlocking a device or confirming identity) is allowed and correctly references the exception in the law."
+ },
+ "ec12bc0fee63f681445dec878652787965efe5d5": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text explicitly states that biometric verification for confirming identity is not included in high-risk systems, so the answer should address this."
+ },
+ "27486b3da3cef266ee0c018425eca3e4174a322d": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that facial recognition for unlocking a phone or verifying identity is allowed, as biometric verification for the sole purpose of confirming identity is excluded from high-risk classification."
+ },
+ "74f52d194aa9c48c1265d7116a5509698ae7f5dd": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not explicitly state that the law allows real-time remote biometric identification in public spaces for the search for missing persons, which is a key exception in the law text."
+ },
+ "2e50e1632437fa52f3f44ebfd87e9e1a1e6f72e5": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception allowing police to use real-time remote biometric identification for the search for missing persons, including missing children."
+ },
+ "ac44f078c8d0dc931cd27fee4b71bf6a1f589c40": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that biometric identification can be used to find missing persons, but it incorrectly refers to 'post-remote' instead of 'real-time' systems and does not specify that the exception applies to 'real-time' remote biometric identification in publicly accessible spaces."
+ },
+ "2d676de646cd8f386cdabbd25ed2c693f907f109": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that police can use biometric identification to find missing persons but omits that the law specifically allows 'real-time' remote biometric identification in public spaces for this purpose, as an exception to the general prohibition."
+ },
+ "22ecf20149d38c31d27d46e893ab19cd26128a76": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law text explicitly exempts AI systems used for detecting financial fraud from being classified as high-risk."
+ },
+ "b515c9677384b80bc126fe9b287183c2e8eedcaf": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that AI systems used for detecting financial fraud are specifically excluded from the high-risk classification under the relevant clause."
+ },
+ "2193c8c6c64effac632a9ebce501715ad8618922": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law requires logs to be kept for at least six months, not 10 years."
+ },
+ "e20282f607d17082d4c3d5a27a20d3b32e2ae965": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that AI systems used for detecting financial fraud are not classified as high-risk, as explicitly excluded in Annex III, point 5(b)."
+ },
+ "b1cf9eb95370b519a5c8eca41b23d00460fd2b7b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems used for detecting financial fraud are explicitly excluded from the high-risk category under the relevant law text."
+ },
+ "6a568d4239056f96e3f44186592cd68b0804f475": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the minimum six-month retention period and notes exceptions based on applicable law."
+ },
+ "8002538f4b8152566276de92cbc00c98fe064367": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer gives the wrong date; most rules apply from 2 August 2026, not April 2025."
+ },
+ "aff835e62ed50d2175fbcaca2d60242bbd451991": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the minimum six-month retention period and notes exceptions based on applicable law."
+ },
+ "d3df496ff0ba5170d669a64f0ee88c4bf6538a15": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the minimum six-month retention period and notes exceptions based on applicable law."
+ },
+ "ef3813f3b3f351da320bc5da972f1d88edfd165c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that most rules apply from 2 August 2026 and notes earlier application for some provisions, matching the law text."
+ },
+ "8e913d469deeae368ea03c7815079fb50fe4c4ad": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states 2 August 2025 as the main application date, but the law text specifies that most rules apply from 2 August 2026."
+ },
+ "aa2418fc2bce1950aa0b4b95fc22cc52baff365b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that most rules apply from 2 August 2026 and mentions exceptions, but it omits the earlier application dates for Chapters I and II (2 February 2025) and for other chapters (2 August 2025), which are essential conditions from Article 113."
+ },
+ "7e9a0dcfce9f04fdd905c5f71bc7d510564bd7ea": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception for medical or safety reasons as per Article 5."
+ },
+ "3458398db5723a6f9ae8cb8380453fe2da22c2e3": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception for medical or safety reasons as per the law text."
+ },
+ "defce50bfd78ade8c504a5bff7715788ece31d5b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception for medical or safety reasons."
+ },
+ "7a5df9d2d351bd370799febf1e9158b2777d3905": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not specify that the prohibition applies to untargeted scraping of facial images from the internet, which is the key condition in the law."
+ },
+ "c38fcab96a31d2a29b397e551d4367e719086853": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the key exceptions for medical or safety reasons and incorrectly adds a consent condition not stated in the law text."
+ },
+ "5c2c4a89be76ad7088e0685dd1e51ffb08db7b6f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that untargeted scraping of facial images from the internet to build face recognition databases is prohibited, including placing on the market, putting into service, or use of such AI systems."
+ },
+ "bebc2617667c31652e043bbfed63843a9fa65289": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not specify that the prohibition applies to untargeted scraping of facial images."
+ },
+ "877d2545fdd82c66e9c791c05b7d2c0168973589": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the practice is prohibited but omits that the prohibition specifically applies to untargeted scraping and the placing on the market or use of AI systems for this purpose."
+ },
+ "01607b7f806934d5333fd93cb969db193d700c5e": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer does not address the specific prohibition on AI systems used to predict criminal behavior based solely on profiling or personality traits as stated in the law."
+ },
+ "5ea44e6747b17b061c9c4bc71baac3f256151dc7": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception regarding AI systems predicting criminal behavior based on profiling or personality traits."
+ },
+ "de3678059e949c873333fa62cc5af688ac10d07f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception regarding AI systems predicting criminal offences based on profiling and personality traits."
+ },
+ "0ae545440c4a663b32171c01871f14a59da69712": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific lawful purposes such as searching for victims of abduction or trafficking and does not mention the necessity condition for use."
+ },
+ "e47a6d0f482781169d03413a8131dbf672b134b8": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception regarding AI systems predicting criminal behavior based on profiling and personality traits."
+ },
+ "6fee7a830d93e9cd1e047fb93b660658bba6766d": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific exceptions allowing use only for targeted searches for victims of abduction, trafficking, sexual exploitation, and missing persons, and does not mention the necessity condition explicitly."
+ },
+ "6382c6719f51023200ae444d100d49be8a5cce24": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer does not address the specific conditions under which police are allowed to use real-time remote biometric identification in public spaces according to the law text."
+ },
+ "c6f6bd8f1b7c738b2449e89f43da4d98600214c1": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing use without prior authorization in urgent situations if authorization is requested within 24 hours."
+ },
+ "02f4713aed3b5fdf4b16bb19e31f95938f489d91": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing use without prior approval in urgent situations for up to 24 hours."
+ },
+ "52ed705908169223a1665058b25d95a906aa7de1": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing use without prior authorisation in urgent situations, provided authorisation is requested within 24 hours."
+ },
+ "ad05f4157a4bba56472015f6a9e5be2f17cc2694": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the rule including the urgency exception and the 24-hour authorization request requirement."
+ },
+ "806e3fc0f5573e0c606e2e013828306058004403": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that not all Annex III AI systems are automatically high-risk but omits the specific conditions and the exception for profiling AI systems."
+ },
+ "917891db7c91be77a6a660f0cab7f671fec32dbe": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer does not address the conditions under which AI systems in Annex III are not considered high-risk and incorrectly references Article 7 instead of Article 6."
+ },
+ "d668c108deb712b4320a6635b4b6961cd963a71a": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific lawful purposes for use, such as searching for victims of abduction or trafficking, and does not mention the necessity condition."
+ },
+ "0430b709599eb3fe8be027ab72745c9e2df220de": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that not every AI system in Annex III is automatically high-risk but omits the specific conditions under which an AI system is not considered high-risk and the exception for profiling AI systems."
+ },
+ "d66e2ff78b2e877969eda99134853f77de32410c": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that open-source providers must prepare technical documentation, but the law exempts them unless the model has systemic risks."
+ },
+ "bae8e8bf0edf660d9ec683e193d39b524bdcdd5f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the conditions under which Annex III AI systems are not considered high-risk and notes the exception for profiling."
+ },
+ "4abeaf8897f697905f3cc85088fc1ed4c60d4a5e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the essential exception that the documentation obligation does apply to open-source models with systemic risks."
+ },
+ "7bd6c289baf081a10cb044a62948a7961977df87": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that open-source providers must prepare documentation, ignoring the exception for free and open-source models without systemic risks."
+ },
+ "faa044117e490b3e86bed4de1c5655669936442a": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer fails to mention the exception for open-source models without systemic risks who are exempt from preparing technical documentation."
+ },
+ "63f2673cf929722e7f4b6f4f4aad1134af7b2507": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer does not address the specific transparency obligations for deepfakes in artistic or satirical works as stated in the law."
+ },
+ "7765b770925c5cc4195fbba42dab20d51e633f3f": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states that the exemption does not apply if the transparency obligation is limited, whereas the law actually limits the obligation to appropriate disclosure without hampering enjoyment."
+ },
+ "d037e551a44fa1cb1fddddf4e9c4b6c7da70fd6a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the labeling requirement and the exception for artistic or satirical works as per Article 50."
+ },
+ "9f48fe98cdcab2025dd2d35a51732a4241e3b68a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exemption for AI systems used exclusively for military, defence, or national security purposes as per Article 2, paragraph 3."
+ },
+ "e4c2e5e502c1a954397121c612deafcbfc271a78": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that transparency obligations are limited to disclosure in an appropriate manner that does not hamper enjoyment, rather than no labeling at all."
+ },
+ "d3488a4a60ae19a10a76520ae78b1bf9e2e95e10": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that AI systems used exclusively for military purposes are not covered, but it omits the explicit mention of defence and national security and the conditions about market placement and use in the Union."
+ },
+ "86b40efe9ae4b58e38fd79c21857e3a12e71f480": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law explicitly states that the Regulation does not apply to natural persons using AI systems for purely personal non-professional activities."
+ },
+ "8e86100341a6785a5ff9e903205ac3a86186f3fb": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states no obligations for personal use but fails to explicitly mention the key condition of 'purely personal non-professional activity' as specified in Article 2(10)."
+ },
+ "0f66220496881f298914a7e530a13aaafa0ef8cb": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exclusion of AI systems used exclusively for military, defence, or national security purposes as per Article 2, paragraph 3."
+ },
+ "0c5799c35f4cc644925880aaa6d055aa0a3cfe01": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer gives incorrect fine amounts and ignores the lower maximum fine for start-ups specified in the law."
+ },
+ "ce3117c28f5ec07e0aa31b01b31ddbb3374b7c2d": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that for start-ups the fine is capped at the lower amount or percentage as per Article 99 para 6."
+ },
+ "29303fb441bd41ea3654d12a47df81bfcb98708b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that for start-ups the fine is capped at the lower amount or percentage as per Article 99 para 6."
+ },
+ "7bcfa121eff0ae0e832e543babcdce4f05398fbc": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the condition for SMEs and start-ups regarding lower fines."
+ },
+ "5d946e1fe656d27dff67e9d49b9a3f7e5b7a862f": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states the fine as up to 6% instead of 3% of annual turnover or EUR 15 million, whichever is higher."
+ },
+ "0f4165e7924fbcf072e532068535157a3d979a7a": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer incorrectly states that the AI Act does not specify fines for misleading information, while Article 99 clearly sets fines up to EUR 7,500,000 or 1% of turnover."
+ },
+ "1e58cfe518dea71ee4b9bb8d33c74190c6f46042": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fine limits, conditions for imposition, and factors considered in fixing the fine amount."
+ },
+ "6a83e7e3c88d85ffda7436d06bce8dba1b0f89dc": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text provides specific maximum fines for start-ups, so the answer incorrectly states that the information is not specified."
+ },
+ "d577efca64c5b2e1d457aa44e48fa2823fe382db": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fines and conditions for providers of general-purpose AI models as per Article 101."
+ },
+ "77010fcc914bd5a4177ee5c0deeccbf0eed72953": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fines, conditions, and considerations as per Article 101."
+ },
+ "adf0e79946376fbdf93bd4b50df831d0c714a208": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits obligations related to monitoring, informing providers and authorities, keeping logs, and informing workers before use."
+ },
+ "ff2584b09d0d94e4820b4ba21388e1869a8ffc79": {
+  "grade": "wrong",
+  "error_type": "made up",
+  "reason": "The answer incorrectly attributes provider obligations to deployers and omits key deployer-specific obligations like following instructions for use and human oversight."
+ },
+ "15d31ab6ae1ecc8a103dca22f800fc9092a3046a": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states that the fine applies regardless of SME status, omitting that for SMEs the fine is capped at the lower amount or percentage as per paragraph 6."
+ },
+ "ad3ab820b8af66569fd6f8caaae34886c97673da": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the obligation to keep logs for at least six months and to inform workers before use at the workplace."
+ },
+ "33915b8f5ef3aef469fbdaab0c5de3ab5c28be0f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the deployer's obligations including use according to instructions, human oversight, monitoring, reporting risks and incidents, and exceptions for law enforcement data."
+ },
+ "51bf7d6be9cd90a7b672d642ad66aaf0a14598f2": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states all conditions under which a distributor or deployer is treated as the provider of a high-risk AI system, including name or trademark, substantial modification, and modification of intended purpose."
+ },
+ "0270994ec46f76fd313d81f91bc2299a1c28e0f3": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the condition about putting their name or trademark on the system and modifying the intended purpose, which are essential parts of when a distributor or deployer is treated as a provider."
+ },
+ "e066705358c88001f2d02631f778690c0f750828": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states all conditions under which a distributor or deployer is treated as the provider, including name or trademark, substantial modification, and modification of intended purpose."
+ },
+ "39c862bca13712831c7cdff6dd90fa12a1895ca5": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the conditions under which a distributor or deployer is treated as the provider, including name or trademark, substantial modification, and modification of intended purpose, and mentions contractual arrangements."
+ },
+ "09af7baff0a30408f5dcd6a9adf985b18763e32e": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that the importer must ensure the system is not in conformity, which contradicts the law requiring the importer to ensure conformity before placing the system on the market."
+ },
+ "51c64abd905b4cbcd6f78e3c00a339c15ca47a63": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly adds 'if applicable' to the requirement for an authorised representative, which is not stated in the law text."
+ },
+ "2e560f1cf154e93b90850c34cf7d58f4cca2b4b7": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states all the required checks an importer must perform before placing a high-risk AI system on the market as per Article 23."
+ },
+ "dc921c3c78ff36a853e685f0841e067c97bd3106": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the requirement to verify the appointment of an authorised representative and the CE marking with the EU declaration of conformity."
+ },
+ "25ad20fe42b9c0fadb9286efe66c43c18c118b04": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that only deployers that are bodies governed by public law or private entities providing public services must carry out the assessment, and excludes certain high-risk AI systems."
+ },
+ "9c74b78f6999f236d089609b3503adaa2bf2245b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception for high-risk AI systems intended to be used in the area listed in point 2 of Annex III and the inclusion of deployers of high-risk AI systems referred to in points 5 (b) and (c) of Annex III."
+ },
+ "307b149cee156e3d36de3e5868896535da2deddf": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the deployers required to carry out the assessment and includes the exception."
+ },
+ "8e2b7d61b1aaf06fef009067ec8c1eacbe8210ed": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception for high-risk AI systems intended to be used in the area listed in point 2 of Annex III and the inclusion of deployers of high-risk AI systems referred to in points 5 (b) and (c) of Annex III."
+ },
+ "354dbaa8dcbdf49ecfc112d26c5365551931f331": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law explicitly states the threshold of 10^25 floating point operations for systemic risk classification, which the answer fails to mention."
+ },
+ "90b1ef9e456983b5c6632b174fc0b9350dfeb04a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the threshold of 10^25 floating point operations for systemic risk classification."
+ },
+ "a70f561448712b358f90bc1faa55b14bcc86cbd9": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states the start date as April 2024 instead of 2 February 2025."
+ },
+ "8e6d031e4d6ab4511474d12945641c2ad06fe002": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the date 2 February 2025 but does not specify that this date applies to Chapters I and II, which include the bans on unacceptable AI practices."
+ },
+ "f1789f1501455aa5b0707be9518fd11934268443": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The bans on unacceptable AI practices start to apply from 2 February 2025, not 2 August 2026."
+ },
+ "df8b2e6f80c6de86d49ff1e4baac81903dcc9a22": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the date 2 February 2025 but incorrectly references Recital 179 instead of Article 113 and does not clarify that Chapters I and II apply from that date, which include the bans on unacceptable AI practices."
+ },
+ "ba50ca3597338988c09b858108a8d7c6ff4ec142": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception for AI systems authorized by law for criminal justice purposes."
+ },
+ "6025d9f8e568296780387f8c1d4dae54f2098417": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform users when interacting with AI systems unless it is obvious from the context."
+ },
+ "49b4450e18749a95238825d849778882bdbce465": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception that notification is not required if it is obvious to a reasonably well-informed person in context."
+ },
+ "d0f42f4de9d3407d5131a960461869a69df3b507": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform users when interacting with AI systems unless it is obvious from the context."
+ },
+ "b5c6eaddabbecaf71cc1d7949427f443d4b23c79": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems for credit scoring are high-risk except those used for detecting financial fraud."
+ },
+ "118de7709b0de9158b747fef5bde4d88e1fe3237": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not mention the exception for AI systems used for detecting financial fraud."
+ },
+ "588b89c8c00aa04db9327865484604f25d98b7b7": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits conditions and exceptions such as the exclusion of certain systems, legal exceptions, and that the right applies only if not otherwise provided by Union law."
+ },
+ "a74d521caf223d1cf6784e288006e99ace605517": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the right to explanation and includes the exceptions and conditions from Article 86."
+ },
+ "eeae922ce5334c8e2217b5dba5ad310960827bf7": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems for credit scoring are high-risk except when used for detecting financial fraud."
+ },
+ "7f1e4e575e9bf87a4fcec2c97fa83ec124196e18": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the right to explanation and includes all relevant exceptions and conditions from Article 86."
+ },
+ "10d3eef651224ca4375d4ed9c381467b8918b155": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the right to explanation and the exceptions under Union or national law as per Article 86."
+ },
+ "ad72938638cf63923a399d0d549662d7b3553496": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer does not specify the 10-year period required by the law and instead gives a general statement unrelated to the question."
+ },
+ "d765e89929dac481e0cb711c2af3e0c5542e2bb8": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states the starting point for the 10-year period and omits that it begins after the system is placed on the market or put into service."
+ },
+ "7b583372119c3659d79e4c1c069ee96d91e517aa": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the 10-year period for keeping technical documentation as required by Article 18, paragraph 1."
+ },
+ "7230a7a203b7bdf6b149267f42917b7a0dda455f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems for credit scoring are high-risk except those used for detecting financial fraud."
+ },
+ "9f2cf43197c49a815fe531e6da5af68604c07971": {
+  "grade": "partial",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly cites Article 23 instead of Article 18 and omits that the 10-year period starts after the system is placed on the market or put into service."
+ },
+ "cfe0250bc6b5d72f37e52018a698bee17296bef8": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer misses the key elements of being machine-based, designed to operate with varying levels of autonomy, and generating outputs that influence environments as defined in the law."
+ },
+ "960d0d9c6f73b6e7d29d71e995987ed3cc89c49a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the definition of an AI system as per Article 3."
+ },
+ "af8d05e2bb1db4e991049d1185af510a9e029531": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that SMEs and start-ups may face lower fines but omits the specific rule that fines for SMEs are capped at the lower amount or percentage as per Article 99(6)."
+ },
+ "dbc3114f322a701060cf962f58008aaaaf731801": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the definition of an AI system as per Article 3."
+ },
+ "62faa7c11e4883348c1dab893b7cf6ffc6443835": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that SMEs and start-ups receive lower fines as per Article 99 para 6, referencing the correct paragraphs and conditions."
+ },
+ "5a07008dfdcc42e562dc2e26ce528f3c96fc907c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that SMEs and start-ups are given lower fines as per Article 99 para 6."
+ },
+ "e3d8eb0e98ec750eae3f0d089491f8cdad32138d": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the condition that the exploitation must materially distort behavior causing or likely to cause significant harm."
+ },
+ "639c07d5add1f975c79c47a11ae6d92afe9cc319": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the prohibition but omits the condition that the exploitation must cause or be likely to cause significant harm."
+ },
+ "70d82377ba6b85b00a172f2bbd91b56ef332a035": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that SMEs and start-ups are given lower fines as per Article 99, paragraph 6."
+ },
+ "3cf99d98a6d0d3f2926178f7adb7ec7e2458db97": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition on AI exploiting vulnerabilities due to age, including children and elderly, causing significant harm."
+ },
+ "2c7c17f7cf7020c4a2e2d5db0766cb069bbea47a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the prohibition and the exception for law enforcement as per the law text."
+ },
+ "b9dd63db07ea2411450da606480e0aba25a35aca": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that exploitation of vulnerabilities due to disability or specific social or economic situations is also prohibited, not just age."
+ },
+ "0fbf6640157668f5b77a9e9528f648888fa457e6": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the prohibition but omits the exception for law enforcement use."
+ },
+ "c2e9f3e735cf7adc1deb15ff8e4f3c2a57070171": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately and completely states the definition of an AI system as per Article 3, including machine-based, autonomy, adaptiveness, and output generation."
+ },
+ "30767a311c36d4f2205d16e3614e5fb4330fbc9e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the prohibition but omits the exception for law enforcement use."
+ },
+ "7215ef9da3c98d1116c5d9aa397b286f538d5a2a": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the prohibition does not cover labelling or filtering of lawfully acquired biometric datasets or categorising biometric data in law enforcement, and it incorrectly introduces hair colour or eye colour which are not mentioned in the law text."
+ },
+ "b7031af00a98f9210d65cf5a74ee2d2f5a514619": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer fails to mention that AI systems used for social scoring leading to detrimental or unfavourable treatment are explicitly prohibited under Article 5."
+ },
+ "a7f71e8b7d681ceeeaaec695004600853567a572": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific condition that social scoring is prohibited when it leads to significant harm or detrimental treatment, and does not mention the exact criteria of social scoring leading to detrimental or unfavourable treatment as stated in the law text."
+ },
+ "3a9a88b749ffc26cc133d56c55c2a4fdec1fdaae": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that social scoring leading to detrimental or unfavourable treatment is explicitly prohibited, not just under certain conditions."
+ },
+ "aba9e6ad48e4ab9632980ce67746c252a6c89447": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law requires reporting within 10 days, not 24 hours."
+ },
+ "52c9c2412e5145c79a39a7dc9afccb0ffac81ead": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the condition that social scoring is prohibited when it leads to detrimental or unfavourable treatment, but does not specify the full scope of the prohibition as stated in the law text."
+ },
+ "22d68d0595b64bc8cea693165ac9edffe5f01098": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the reporting timeframe and conditions for a death caused by a high-risk AI system."
+ },
+ "ced81c5df46fa4bb5e21f9ae65ce4f67554704e3": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the timing and conditions for reporting a serious incident causing death as per Article 73(4)."
+ },
+ "c965def06ac6154a9a7d162459bd000d332ab373": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the timing and conditions for reporting a serious incident causing death as per Article 73(4)."
+ },
+ "1aaecc1e8f22834a92e28f4ba8bc153b81ac6b0d": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states a 24-hour deadline instead of the 15-day deadline specified in the law."
+ },
+ "10383b7de4462e212919481252a147c6d05322d7": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the 15-day deadline and the exception of 2 days for widespread infringements or serious incidents as per the law text."
+ },
+ "a7676d745b9fc48f17f26d9bdb2dbda802876c54": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly adds a 10-day deadline for death incidents, which is not in the provided law text, and omits that the 15-day period accounts for severity."
+ },
+ "8b7982f6467f00dcd358dfff81271f20b8851df7": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the employer's obligation to inform workers and their representatives before using high-risk AI systems, including the condition about following applicable laws."
+ },
+ "0715a29a1b9b56859136474f4eeb7e13560c93a6": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the 15-day deadline and the exception of 2 days for widespread infringements or serious incidents."
+ },
+ "d1dcdd6dd0a38474e12bce48bae10a58da5f0f4e": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the employer's obligation to inform workers and their representatives before using high-risk AI systems, including the reference to applicable laws."
+ },
+ "a3cc715091dd2c3e76dc722d2f3437e6c4ebcc47": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing derogation by market surveillance authorities for exceptional reasons such as public security."
+ },
+ "559e07170bd2d6b721822686128235a27a22e823": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform workers and their representatives before using high-risk AI systems, including the condition to follow applicable laws."
+ },
+ "6499f655f4d3b05e873b7b02159d28aecc159054": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer ignores the derogation allowing use without conformity assessment for exceptional public security reasons."
+ },
+ "cf6d9d8d99602b7f63dbf06b9cb3edceb5899e37": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the exception allowing derogation by market surveillance authorities for exceptional reasons such as public security."
+ },
+ "e369929490c808742cfae430102cf41e844da759": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the derogation is granted by a market surveillance authority upon a duly justified request and is limited to a specific Member State territory and limited period while conformity assessment is carried out."
+ },
+ "e57671b1c1d3f6c55eb11022fd1e3097029f6fcc": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception for disclosure when human review or editorial control and editorial responsibility are present."
+ },
+ "d4a2e44224e39670d2b2ee5dd576e2f125ace2e9": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that employers must inform workers but omits the requirement to also inform workers' representatives and the condition that information must be provided according to applicable rules and procedures."
+ },
+ "451e8c412c80aae55142e6b1c136098efa376641": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that disclosure is needed despite human review and editorial responsibility, whereas the law exempts such cases from disclosure."
+ },
+ "e3d7fa46ab484b635bf9b64105b4c8823bdab787": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that AI-generated content must always be labeled, ignoring the exception for content that has undergone human editorial review and responsibility."
+ },
+ "f536e2b2e566f7ceb67b85ee282862c4c7502560": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states that disclosure is needed when human review and editorial responsibility exist, but the law exempts such cases from disclosure."
+ },
+ "731968f821a5968a4842323782efc4f18cbd0a38": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform and the exception for criminal offence-related uses."
+ },
+ "a397e52e9fab82e14b1d34162e46de51bcaeab7d": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform and the exception for law enforcement use with safeguards."
+ },
+ "8954ec862abeb88d24fdec41b6ddfa55dc7fdb0f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the obligation to inform and the exception for criminal offence-related uses with safeguards."
+ },
+ "aa27ddb7d5fc8c0aea3e62a9f96ad8acd6912328": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that individuals must be informed but omits the important exception for systems used for criminal offence detection, prevention, or investigation."
+ },
+ "c8d4ddd26c4902438a6708e03b23b6b39a168c13": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly identifies AI systems used for recruitment, including screening and filtering job applications, as high-risk under the law."
+ },
+ "dee36877d040c8e7c0d74c7e97f3e577d5a2d73e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that testing in real world conditions is not excluded from the regulation."
+ },
+ "eb3100ac17dd9b13378cb3255a4d85a8b9c8d148": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI tools used for recruitment, including screening and filtering CVs, are high-risk according to Annex III."
+ },
+ "fd1519347b8f552f0dd9f75560ad92eac5fb61ff": {
+  "grade": "wrong",
+  "error_type": "made up",
+  "reason": "The answer references incorrect article numbers and adds conditions not found in the provided law text."
+ },
+ "90948100566dc5f8102639e6bf0ebfb46162fef4": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI tools used for screening job applications and filtering CVs are high-risk as per the recruitment category in Annex III."
+ },
+ "ce520512dc9dbd6f3a58f8d5fe5a2282386b8b99": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exclusion for research, testing, and development prior to placing AI on the market, including the exception for real world testing."
+ },
+ "24d59127a1ce6713252143bc0edf7b827f14431c": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that testing in real world conditions before placing on the market is not excluded from the regulation and does not clearly state the general exclusion of research, testing, or development prior to market placement except for real world testing."
+ },
+ "bc77763b5987c24eaf08ad87ed377d144c4fabfa": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer fails to state the explicit exception for law enforcement use authorized by law, which exempts the disclosure obligation."
+ },
+ "d3c5577aaaa8f1e48ed15818e1ece913e4ae578b": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception for law enforcement use authorized by law as per Article 50, paragraph 4."
+ },
+ "daa5b22dc92360c0bbf4a96590604a63462b5107": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states that operators must comply by 2 August 2030 after significant changes, but the law says compliance is required only if significant changes occur, and separately providers and deployers of high-risk AI systems used by public authorities must comply by 2 August 2030 regardless."
+ },
+ "89ded5d9b60b2dd698f834785d3808fb46f2f1c1": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception for law enforcement use authorized by law as per Article 50 para 4."
+ },
+ "549e089bbbc1da9cd29553c39bb4d52fbabd98fc": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that only high-risk AI systems with significant design changes after 2 August 2026 must comply immediately, and that public authority systems have until 2030 to comply."
+ },
+ "ba1b04cc8d4d11c3688aa2ffbfb7682d03676db7": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states that compliance by 2 August 2030 applies only if significant changes are made, but the law requires compliance by that date regardless for systems intended for public authorities."
+ },
+ "0bd4a248e5496bc495891497e947bd3544762f71": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer incorrectly states there are no exceptions, while the law text explicitly allows exceptions for medical or safety reasons."
+ },
+ "79e20454f91fc3279ffcf8f5840ead8f918908c3": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text explicitly states exceptions for medical or safety reasons."
+ },
+ "6f6dc431076f86d6508707f316f5df8e78fb70e5": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the medical and safety exceptions but adds unrelated information about informing individuals and criminal offences, which is not part of the exception in the law text."
+ },
+ "ba6894afff486549b19dd33d6a8e93ebc90cf65a": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states that providers cannot avoid obligations just by documentation, but it omits that providers can document their assessment if they consider the system not high-risk under specific conditions in Article 6(3)."
+ },
+ "723a5d4023653653d5aacb2133fb0e6b6343b153": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text explicitly states that providers must document their assessment if they consider their Annex III AI system not high-risk."
+ },
+ "9db956bfd4cc871eb53dea6c8de923b85306838c": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that a provider can document an assessment to avoid high-risk classification and must comply with registration obligations."
+ },
+ "09517092d38bec2f0e56f3c9b8e5139f1bb9f50b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer fails to state that the Regulation applies to high-risk AI systems placed on the market before 2 August 2026 only if significant changes occur after that date; it implies the systems themselves are subject to changes rather than the Regulation applying only if changes occur."
+ },
+ "b792ccee5859610ef2c3988f3e284bd67b088bc1": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The answer incorrectly states that the Act does not specify fines, while Article 99(4) clearly sets fines up to EUR 15,000,000 or 3% of turnover for deployers."
+ },
+ "d1db856416cb50a02e037c81bf2f9f601ca58041": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits the specific exceptions for medical or safety reasons mentioned in the law text."
+ },
+ "1fa3ebe0ea973b395126eaa829f9d1ffda193e88": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fine amounts and the relevant article for deployers' obligations."
+ },
+ "5746634d168ecddb3da4e58de2659596dc262c41": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fine amounts and conditions for deployers as per Article 99(4)."
+ },
+ "a0a2428374016ebbd197715c1fd892d47a15fcf4": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the fine amounts and conditions for deployers as per Article 99(4)."
+ },
+ "41512f41319d91bff1186bd881afb57c86e6f44a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI used for admission and evaluating learning outcomes is considered high-risk, matching the law text."
+ },
+ "9939c31f4fc0c8f4639ce010f4b50852fece88ec": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer fails to mention that AI systems can be used to assist competent authorities in examining asylum applications only if permitted under relevant Union or national law."
+ },
+ "5af4a3d8a57d01de09545a4b01f6a9fc878fdfac": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that AI systems used to evaluate learning outcomes are explicitly listed as high-risk, not just those affecting rights and freedoms generally."
+ },
+ "75ba8df3c95b7b38981ae3f245ad2087c70129ab": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly identifies AI used for admission and evaluating learning outcomes as high-risk but omits the specific mention of AI used to assign individuals to institutions and other detailed categories in the law text."
+ },
+ "cb0bfc1aab4ab98e8259b8334780ef00899ec0d4": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI can be used to assist in asylum application examination, subject to use by competent authorities and compliance with relevant law, matching the law text."
+ },
+ "a74e0e602dd3efbe0d8569687133deccebfc788f": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI used for admission and assessing learning outcomes is considered high-risk, matching the law text."
+ },
+ "7c1c40b5d3f98ea9d5cc110a8a0d183759572a74": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI can be used to assist in asylum application examination, subject to relevant Union or national law, as per Annex III."
+ },
+ "439cd67c7d74dde333ae3c7c5c489e8359d553ef": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states AI can assist in asylum application examination but omits that AI use is only permitted under relevant Union or national law."
+ },
+ "24843163f70bcbf29564639e74006f603837d6a8": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not specify that AI systems used as polygraphs or similar tools are high-risk, which is the key point in the law text."
+ },
+ "4f315336057e21f86e2a2aaf35e230227e954785": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the use must be permitted under relevant Union or national law to be high-risk."
+ },
+ "8faee29e5952de5a18667438ec2ca76e20145a6a": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems used as polygraphs or similar tools by law enforcement are high-risk, matching the law text."
+ },
+ "76c3d4388942171a1db1a32b475ee672e66d6afd": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems used as polygraphs or similar tools by law enforcement are high-risk AI systems."
+ },
+ "6825ac6ef30019c6afea74c607726c21822426b9": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states facial recognition is allowed for unlocking a phone, but the law excludes biometric verification AI systems from the high-risk category only if their sole purpose is to confirm identity; it does not explicitly say facial recognition is allowed or disallowed for unlocking phones."
+ },
+ "8f3386840621928748df08d6cda8be084d9fc25e": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer does not explicitly state that real-time remote biometric identification for missing persons is allowed if strictly necessary, as per the law."
+ },
+ "a6d1397e937bcc7f7ad8148c1143242629f69034": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that facial recognition for biometric verification to confirm identity, such as unlocking a device, is allowed as per the exception in the law."
+ },
+ "835c569f447698262d15f51afd09292927a5805c": {
+  "grade": "wrong",
+  "error_type": "gave up",
+  "reason": "The law text explicitly excludes AI systems used solely for biometric verification from the definition of remote biometric identification systems, implying facial recognition for verifying identity is allowed."
+ },
+ "d02ec7e045eb940768d79f4c6088a9d1fa1f15e4": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the exception allowing biometric identification for searching missing persons, including children, under law enforcement use."
+ },
+ "abcdf429ce482f43432408e0e746997677a5ea6b": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer fails to mention that biometric verification systems solely used to confirm identity are excluded from the high-risk classification under the law."
+ },
+ "c069ef8a931d1e552155d04ab5b51418dd4a3651": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that the prohibition applies specifically to 'real-time' remote biometric identification systems and does not clarify this condition."
+ },
+ "f28f556a414b24c7b0ef68585115239023de9de7": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer omits that 'real-time' remote biometric identification in publicly accessible spaces is allowed if strictly necessary for searching missing persons, as specified in Article 5(1)(h)(i)."
+ },
+ "3e16a4c5f9e716dbb1285b16dc76864f2f62f1c2": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states that AI systems used for detecting financial fraud are excluded from high-risk classification as per point (b)."
+ },
+ "e89e269c19043f40d2c9796d5ca88571b64a4c96": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The law explicitly excludes AI systems used for detecting financial fraud from the high-risk classification."
+ },
+ "2ba3c9c3a3f3998c6a06692ae60c40d107dd0792": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that AI systems used for detecting financial fraud are excluded from the high-risk classification."
+ },
+ "89b798c0082a5c4127adab16e8d1d01d553358b4": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the minimum six-month period and the possibility of variation due to applicable laws."
+ },
+ "4b2a38917b08fd4199f557abdecf5befffb98a54": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states a 10-year period instead of the required minimum of six months."
+ },
+ "797f713baee4156903c82db1de8dce24dba19e40": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the minimum six-month period and the condition regarding applicable Union or national law."
+ },
+ "4601e561d7ac9e4077104885908ed7b3d33dba39": {
+  "grade": "wrong",
+  "error_type": "misstates the rule",
+  "reason": "The answer incorrectly states the start date as April 2025 instead of 2 August 2026."
+ },
+ "f9095beaa81ac6578528073bcd53891ad2ddc398": {
+  "grade": "partial",
+  "error_type": "made up",
+  "reason": "The answer correctly states the main application date but incorrectly references Recital 179 and adds details about codes of practice and infrastructure not found in the law text."
+ },
+ "3ab6f7f6be7813adb42faee0f3b6442234b89b93": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer accurately states the minimum six-month period and the possibility of variation due to applicable laws."
+ },
+ "bd9d7edf829e238ac185f85141f90d83f9920032": {
+  "grade": "correct",
+  "error_type": "none",
+  "reason": "The answer correctly states that AI systems for detecting financial fraud are excluded from high-risk classification as per the law text."
+ },
+ "03d034c7bba5fcc43371cf2a5e7d22620eaf4e01": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer incorrectly states that most rules apply from 2 August 2025, but the law says the Regulation applies from 2 August 2026, with some parts applying earlier."
+ },
+ "af68683170d9a422e9fdf45b133f357ba80f77a2": {
+  "grade": "partial",
+  "error_type": "omits an essential clause",
+  "reason": "The answer correctly states the main application date but adds details not supported by the provided law text and omits the specific earlier application dates for certain chapters."
+ }
+}
