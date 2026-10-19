@@ -1,8 +1,8 @@
 # RAG over the EU AI Act: Baseline Retrieval vs. Cross-Encoder Re-Ranking
 
-LMA assignment. Two retrieval pipelines run over the same chunked document and are compared:
+LMA assignment (CL3.410, Language Models and Agents). Two retrieval pipelines run over the same chunked document and are compared. A third, improved pipeline and a no-retrieval control are added as extras.
 
-| | Pipeline 1 (baseline) | Pipeline 2 (re-ranking) |
+| | Baseline (Pipeline 1) | Re-ranking (Pipeline 2) |
 |---|---|---|
 | Retrieve | bi-encoder `sentence-transformers/all-MiniLM-L6-v2`, FAISS exact inner product, Top 10 | same Top 10 |
 | Re-rank | none | cross-encoder `cross-encoder/ms-marco-MiniLM-L-6-v2` scores all 10 (query, chunk) pairs |
@@ -15,82 +15,79 @@ LMA assignment. Two retrieval pipelines run over the same chunked document and a
 
 | Path | What it is |
 |---|---|
-| `rag_baseline_vs_reranking.ipynb` | The whole assignment, executed with outputs saved |
+| `code.ipynb` | The whole assignment, executed with outputs saved |
+| `report_final.pdf` | The report (7 pages) |
 | `data/` | The source PDF and the chunked corpus (`chunks.jsonl`: 747 chunks, 289 recital, 387 article, 71 annex, with metadata) |
 | `results/retrieval_runs.csv` | For every query, all 10 candidates with bi-encoder and cross-encoder scores and ranks, plus a gold flag |
 | `results/rank_shifts.csv` | Best gold rank before and after re-ranking for every query |
-| `results/answers.csv`, `answers.json` | Answer 1 vs Answer 2, key-fact coverage, and empty manual-label columns |
-| `results/latency.csv`, `scaling.csv` | Latency per stage, and the full-corpus cross-encoder scaling experiment |
-| `results/ablations.csv`, `ablation_summary.csv`, `pipeline_comparison.csv`, `answers_pipeline3.csv` | Extra experiments (§17) |
-| `results/figures/` | Chunk-length histogram, rank-shift chart, latency chart |
-| `report.pdf` | The report |
+| `results/answers.csv`, `answers.json` | Answer 1 (baseline) and Answer 2 (re-ranking), key-fact coverage |
+| `results/answers_norag.csv`, `answers_norag.json` | Answers from the LLM with no retrieved chunks (control) |
+| `results/grades.csv`, `grades_by_group.csv`, `grades_cache.json` | Every answer graded correct, partial or wrong by two judge models, with the kind of mistake |
+| `results/latency.csv`, `batched_latency.csv`, `scaling.csv` | Latency per stage, batched re-ranking, and the full-corpus cross-encoder scaling experiment |
+| `results/ablations.csv`, `ablation_summary.csv`, `pipeline_comparison.csv`, `answers_pipeline3.csv` | Extra experiments and the final pipeline |
+| `results/figures/` | All figures made by the notebook |
 
 ## Notebook structure
 
-| § | Content |
+| Section | Content |
 |---|---|
-| 0–1 | Overview, references, config |
+| 1 | Configuration |
 | 2 | PDF cleaning with PyMuPDF: drops headers, footers and footnotes; keeps recital numbers; restores the superscript in 10^25 |
 | 3 | Structure-aware chunking into recitals, articles (by paragraph) and annexes (by point); each chunk is at most 256 word-pieces (the bi-encoder's limit) |
-| 4–7 | FAISS index, both pipelines, shared prompt, LLM wrapper with answer cache |
+| 4 to 6 | FAISS index, the baseline pipeline, the cross-encoder re-ranking pipeline |
+| 7 | Shared prompt and LLM call, with an answer cache |
 | 8 | 49 queries with gold labels anchored to the binding clause |
-| 9 | Retrieval metrics: hit@3, all@3, MRR@10, recall@10, rank shifts |
-| 10 | Answer generation and key-fact coverage |
-| 11 | Deep dives on failure cases |
-| 12 | Latency profiling |
-| 13 | Scaling experiment |
-| 14 | Rank-shift figure |
-| 15 | Reproducibility check |
-| 16 | More figures: score scatter, rank transitions, per-category metrics, context composition, answer coverage, latency distribution, scaling, full-corpus ranks |
-| 17 | Extra experiments: one-factor-at-a-time ablations with a dev/test split, and Pipeline 3 |
+| 9 to 11 | Retrieval metrics (hit@3, all@3, MRR@10, recall), answers with key-fact coverage, deep dives on failure cases |
+| 12 to 13 | Latency profiling and the scaling experiment |
+| 14 to 16 | Rank-shift figure, reproducibility check, more figures |
+| 17 | Extra experiments: one-change-at-a-time ablations with a dev/test split, and the final pipeline |
+| 18 | Failure-mode analysis: keyword trap, exceptions, negation, role limits, clauses buried at rank 4 to 10 |
+| 19 | No-retrieval control and graded answers (LLM judges) |
+| 20 | Scoring formulas, a worked example of both scores, rank figures, batched re-ranking latency |
+
+Every function is in its own cell, with a markdown explanation above it.
 
 ## Results at a glance (49 queries)
 
-| | Pipeline 1 (bi-encoder) | Pipeline 2 (+ re-rank) | Pipeline 3 (extra, §17) |
-|---|---|---|---|
-| hit@3 (any gold chunk in the context) | 0.633 | 0.653 | 0.837 |
-| all@3 (every required clause in the context) | 0.612 | 0.633 | 0.796 |
-| MRR@10 | 0.474 | 0.502 | 0.818 |
-| Answer key-fact coverage | 0.673 | 0.769 | 0.810 |
-| Median retrieval latency | 4.6 ms | 22.3 ms | 88 ms |
+| | No retrieval | Baseline | Re-ranking | Final pipeline (extra) |
+|---|---|---|---|---|
+| hit@3 (a right clause in the context) | n/a | 0.633 | 0.653 | 0.837 |
+| all@3 (every needed clause in the context) | n/a | 0.612 | 0.633 | 0.796 |
+| MRR@10 | n/a | 0.474 | 0.502 | 0.818 |
+| Key-fact coverage of the answer | n/a | 0.673 | 0.769 | 0.810 |
+| Mean answer grade, gpt-4.1 judge | 0.265 | 0.735 | 0.724 | 0.694 |
+| Mean answer grade, gpt-4.1-mini judge | 0.337 | 0.684 | 0.694 | 0.735 |
+| Median retrieval time | n/a | 4.5 ms | 21.5 ms | 87 ms |
 
-Pipeline 3 is not part of the assignment spec. It indexes only the binding text (no recitals), merges dense and BM25 retrieval, takes the Top 30 and re-ranks them with `ms-marco-MiniLM-L12-v2`. It was chosen on Q01–Q24; on the held-out Q25–Q49 its MRR@10 is 0.825.
-
-Showcase cases, where the gold chunk sat at baseline rank 4–10 and re-ranking moved it into the Top 3:
-
-| Query | Gold clause | Rank |
-|---|---|---|
-| Q02 | Art 5(1)(e), scraping | #4 → #2 |
-| Q16 | Art 23(1), importer | #4 → #1 |
-| Q27 | Art 5(1)(g), biometric categorisation | #5 → #2 |
-| Q47 | Annex III 5(b), fraud-detection carve-out | #5 → #2 |
-
-The notebook also lists queries where re-ranking made the gold rank worse, and queries whose gold clause was never in the bi-encoder Top 10.
+- Re-ranking moved four right clauses from rank 4 or 5 into the top 3 (Q16 #4 to #1, Q02 #4 to #2, Q27 #5 to #2, Q47 #5 to #2). It pushed three out of the top 3 (Q20, Q46, Q44), and it cannot help the 11 questions whose right clause is not in the baseline top 10.
+- Retrieval clearly matters: the mean grade is 0.27 without it and 0.73 with it. Better retrieval did not clearly give better graded answers. The two judges even disagree on the order of the three setups (they agree exactly on 84% of answers and within one step on 100%).
+- The final pipeline indexes only the binding text (no recitals), merges dense and BM25 retrieval, takes the Top 30 and re-ranks them with `ms-marco-MiniLM-L12-v2`. It was chosen on Q01 to Q24. On the held-out Q25 to Q49 its MRR@10 is 0.825.
 
 Median latency per query (RTX 4060 Laptop GPU):
 
 | Stage | Median |
 |---|---|
-| Pipeline 1 retrieval | 4.6 ms |
-| Pipeline 2 retrieval, re-rank on GPU | 22.3 ms |
-| Pipeline 2 retrieval, re-rank on CPU | 147 ms |
-| LLM generation | ~5.3 s (median) |
-
-Figures are in `results/figures/`.
+| Baseline retrieval (embed + search) | 4.5 ms |
+| Re-ranking retrieval, cross-encoder on GPU | 21.5 ms |
+| Re-ranking retrieval, cross-encoder on CPU | 125 ms |
+| Cross-encoder over all 747 chunks | 870 ms |
+| LLM answer | about 5.4 s |
 
 ## How to run
 
-Requires Python ≥ 3.11, an NVIDIA GPU (optional; CPU works, only slower), and [Ollama](https://ollama.com).
+Requires Python 3.11 or newer, an NVIDIA GPU (optional, CPU works but is slower), and [Ollama](https://ollama.com).
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m ipykernel install --user --name lma-rag
 ollama pull qwen2.5:7b
-jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=lma-rag rag_baseline_vs_reranking.ipynb
+jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=lma-rag code.ipynb
 ```
 
-LLM answers are cached in `results/answers.json`, so a re-run only calls the LLM for prompts it has not seen. Set `FORCE_REGENERATE = True` in the config cell to regenerate everything. The bi-encoder and cross-encoder download from Hugging Face on first use.
+- LLM answers are cached in `results/answers.json`, so a re-run only calls the LLM for prompts it has not seen. Set `FORCE_REGENERATE = True` in the configuration cell to regenerate everything.
+- Section 19 grades answers with OpenAI models (`gpt-4.1` and `gpt-4.1-mini`). It needs a file named `.env` in the project folder with a line `OPENAI_KEY=...`. This file is listed in `.gitignore` and must never be committed. Grades are cached in `results/grades_cache.json`, so a re-run makes no new calls.
+- The bi-encoder and cross-encoder download from Hugging Face on first use.
 
 ## References
 
@@ -100,3 +97,5 @@ LLM answers are cached in `results/answers.json`, so a re-run only calls the LLM
 - Wang et al. (2020). *MiniLM: Deep Self-Attention Distillation for Task-Agnostic Compression of Pre-Trained Transformers.* NeurIPS.
 - Karpukhin et al. (2020). *Dense Passage Retrieval for Open-Domain Question Answering.* EMNLP.
 - Lewis et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.* NeurIPS.
+- Robertson & Zaragoza (2009). *The Probabilistic Relevance Framework: BM25 and Beyond.*
+- Cormack, Clarke & Büttcher (2009). *Reciprocal Rank Fusion outperforms Condorcet and individual rank learning methods.* SIGIR.
