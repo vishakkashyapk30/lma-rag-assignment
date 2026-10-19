@@ -1,12 +1,12 @@
 stage,median_ms,p95_ms,mean_ms
-query embedding (bi-encoder),4.35,4.65,4.39
-"FAISS search (flat IP, Top 10)",0.11,0.14,0.12
-"cross-encoder, 10 pairs (GPU)",17.01,17.73,16.93
-"cross-encoder, 10 pairs (CPU)",120.91,140.18,122.03
-Pipeline 1 retrieval (embed+search),4.47,4.75,4.51
-"Pipeline 2 retrieval (+rerank, GPU)",21.48,22.32,21.44
-"Pipeline 2 retrieval (+rerank, CPU)",125.38,144.77,126.54
-"LLM generation, Pipeline 1",5416.29,9460.26,5546.89
-"LLM generation, Pipeline 2",5197.95,9531.6,5639.54
-"End-to-end, Pipeline 1",5420.75,9464.69,5551.4
-"End-to-end, Pipeline 2 (GPU rerank)",5219.55,9553.61,5660.99
+query embedding (bi-encoder),4.48,5.06,4.54
+"FAISS search (flat IP, Top 10)",0.11,0.14,0.11
+"cross-encoder, 10 pairs (GPU)",17.21,17.99,17.13
+"cross-encoder, 10 pairs (CPU)",129.04,151.04,129.5
+Baseline retrieval (embed+search),4.59,5.17,4.65
+Re-ranking retrieval (GPU),21.78,23.08,21.78
+Re-ranking retrieval (CPU),133.79,155.62,134.15
+"LLM generation, Baseline",5416.29,9460.26,5546.89
+"LLM generation, Re-ranking",5197.95,9531.6,5639.54
+"End-to-end, Baseline",5420.87,9464.7,5551.54
+"End-to-end, Re-ranking (GPU)",5220.07,9553.49,5661.32
